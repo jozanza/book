@@ -1,0 +1,999 @@
+\indexentry{OCaml/key features of|hyperpage}{9}
+\indexentry{OCaml/benefits of|hyperpage}{10}
+\indexentry{OCaml/history of|hyperpage}{10}
+\indexentry{Base standard library|hyperpage}{12}
+\indexentry{OCaml/third-party libraries for|hyperpage}{12}
+\indexentry{installation instructions|hyperpage}{14}
+\indexentry{OCaml/installation instructions|hyperpage}{14}
+\indexentry{OCaml/operating system support|hyperpage}{14}
+\indexentry{OCaml/code examples for|hyperpage}{14}
+\indexentry{OCaml/numerical calculations in|hyperpage}{17}
+\indexentry{numerical calculations|hyperpage}{17}
+\indexentry{Core standard library/opening|hyperpage}{17}
+\indexentry{let syntax/function definition with|hyperpage}{18}
+\indexentry{functions/defining|hyperpage}{18}
+\indexentry{multi-argument functions|hyperpage}{19}
+\indexentry{functions/with multiple arguments|hyperpage}{19}
+\indexentry{type inference/process of|hyperpage}{20}
+\indexentry{type inference/generic types|hyperpage}{21}
+\indexentry{parametric polymorphism|hyperpage}{22}
+\indexentry{type variables|hyperpage}{22}
+\indexentry{runtime exceptions vs. type errors|hyperpage}{22}
+\indexentry{errors/runtime vs. compile time|hyperpage}{22}
+\indexentry{exceptions/vs. type errors|hyperpage}{22}
+\indexentry{type errors vs. exceptions|hyperpage}{22}
+\indexentry{tuples|hyperpage}{23}
+\indexentry{data structures/tuples|hyperpage}{23}
+\indexentry{arguments/labeled arguments|hyperpage}{24}
+\indexentry{labeled arguments|hyperpage}{24}
+\indexentry{operators/: : operator|hyperpage}{25}
+\indexentry{lists/operator : :|hyperpage}{25}
+\indexentry{commas vs. semicolons|hyperpage}{25}
+\indexentry{semicolons vs. commas|hyperpage}{25}
+\indexentry{pattern matching/in lists|hyperpage}{26}
+\indexentry{lists/pattern matching|hyperpage}{26}
+\indexentry{recursive functions/list functions|hyperpage}{27}
+\indexentry{lists/recursive list functions|hyperpage}{27}
+\indexentry{let syntax/nested let binding|hyperpage}{29}
+\indexentry{options|hyperpage}{29}
+\indexentry{data structures/options|hyperpage}{29}
+\indexentry{datatypes/nullable|hyperpage}{30}
+\indexentry{datatypes/defining new|hyperpage}{30}
+\indexentry{records/record types|hyperpage}{30}
+\indexentry{datatypes/record types|hyperpage}{30}
+\indexentry{fields/field punning|hyperpage}{31}
+\indexentry{datatypes/variant types|hyperpage}{31}
+\indexentry{variant types/combining multiple object types with|hyperpage}{31}
+\indexentry{anonymous functions|hyperpage}{32}
+\indexentry{functions/anonymous functions|hyperpage}{32}
+\indexentry{functional code|hyperpage}{32}
+\indexentry{pure code|hyperpage}{32}
+\indexentry{data structures/immutable|hyperpage}{32}
+\indexentry{programming/immutable vs. imperative|hyperpage}{32}
+\indexentry{data structures/arrays|hyperpage}{33}
+\indexentry{arrays/imperative programming and|hyperpage}{33}
+\indexentry{imperative programming/arrays|hyperpage}{33}
+\indexentry{imperative programming/mutable record fields|hyperpage}{33}
+\indexentry{mutable record fields|hyperpage}{33}
+\indexentry{data structures/mutable record fields|hyperpage}{33}
+\indexentry{records/record types|hyperpage}{34}
+\indexentry{imperative programming/ref type|hyperpage}{34}
+\indexentry{parametric polymorphism|hyperpage}{35}
+\indexentry{Random module|hyperpage}{36}
+\indexentry{while loops|hyperpage}{36}
+\indexentry{for loops|hyperpage}{36}
+\indexentry{imperative programming/for and while loops|hyperpage}{36}
+\indexentry{programming/simple standalone example|hyperpage}{37}
+\indexentry{bindings/top-level|hyperpage}{39}
+\indexentry{top-level bindings|hyperpage}{39}
+\indexentry{let syntax/top-level bindings|hyperpage}{39}
+\indexentry{variables/scope of|hyperpage}{39}
+\indexentry{bindings/scope of|hyperpage}{39}
+\indexentry{scope|hyperpage}{39}
+\indexentry{variables/shadowing of|hyperpage}{40}
+\indexentry{shadowing|hyperpage}{40}
+\indexentry{let syntax/nested bindings|hyperpage}{40}
+\indexentry{nested let binding|hyperpage}{40}
+\indexentry{variables/immutability of|hyperpage}{41}
+\indexentry{pattern matching/and let|hyperpage}{41}
+\indexentry{let syntax/pattern matching|hyperpage}{41}
+\indexentry{variables/pattern matching in|hyperpage}{41}
+\indexentry{irrefutable patterns|hyperpage}{42}
+\indexentry{fun keyword/anonymous functions|hyperpage}{42}
+\indexentry{anonymous functions|hyperpage}{42}
+\indexentry{functions/anonymous functions|hyperpage}{42}
+\indexentry{let syntax/functions and|hyperpage}{44}
+\indexentry{fun keyword/multi-argument functions|hyperpage}{44}
+\indexentry{multi-argument functions|hyperpage}{44}
+\indexentry{functions/multi-argument functions|hyperpage}{44}
+\indexentry{curried functions|hyperpage}{44}
+\indexentry{functions/curried functions|hyperpage}{44}
+\indexentry{partial application|hyperpage}{45}
+\indexentry{fun keyword/currying syntax|hyperpage}{45}
+\indexentry{recursive functions/definition of|hyperpage}{45}
+\indexentry{functions/recursive functions|hyperpage}{45}
+\indexentry{rec keyword|hyperpage}{45}
+\indexentry{or-patterns|hyperpage}{46}
+\indexentry{let syntax/nonrecursive vs. recursive functions|hyperpage}{46}
+\indexentry{operators/prefix and infix operators|hyperpage}{46}
+\indexentry{infix operators|hyperpage}{46}
+\indexentry{prefix operators|hyperpage}{46}
+\indexentry{operators/negation operators|hyperpage}{48}
+\indexentry{operators/subtraction operators|hyperpage}{48}
+\indexentry{subtraction operators|hyperpage}{48}
+\indexentry{negation operators|hyperpage}{48}
+\indexentry{lists/duplicate removal|hyperpage}{49}
+\indexentry{duplicates, removing|hyperpage}{49}
+\indexentry{List.dedup\_and\_sort|hyperpage}{49}
+\indexentry{operators/sequencing operators|hyperpage}{49}
+\indexentry{partial application|hyperpage}{49}
+\indexentry{functions/defining|hyperpage}{50}
+\indexentry{function keyword|hyperpage}{50}
+\indexentry{functions/declaring with function keyword|hyperpage}{50}
+\indexentry{labeled arguments|hyperpage}{51}
+\indexentry{arguments/labeled arguments|hyperpage}{51}
+\indexentry{functions/labeled arguments|hyperpage}{51}
+\indexentry{punning|hyperpage}{51}
+\indexentry{label punning|hyperpage}{51}
+\indexentry{functions/with   multiple arguments|hyperpage}{51}
+\indexentry{multi-argument functions|hyperpage}{51}
+\indexentry{higher-order functions, and labels|hyperpage}{52}
+\indexentry{functions/higher-order and labels|hyperpage}{52}
+\indexentry{optional arguments/explicit passing of|hyperpage}{54}
+\indexentry{functions/argument inference|hyperpage}{55}
+\indexentry{labeled arguments|hyperpage}{55}
+\indexentry{arguments/inference of|hyperpage}{55}
+\indexentry{optional arguments/inference of|hyperpage}{55}
+\indexentry{type annotations|hyperpage}{56}
+\indexentry{lists/generation of|hyperpage}{59}
+\indexentry{operators/: : operator|hyperpage}{59}
+\indexentry{lists/operator : :|hyperpage}{59}
+\indexentry{lists/structure of|hyperpage}{59}
+\indexentry{lists/extension of|hyperpage}{59}
+\indexentry{match statements|hyperpage}{60}
+\indexentry{lists/extracting data from|hyperpage}{60}
+\indexentry{data structures/pattern matching and|hyperpage}{61}
+\indexentry{match statements|hyperpage}{63}
+\indexentry{errors/detecting with match statements|hyperpage}{63}
+\indexentry{tables, creating with List module|hyperpage}{64}
+\indexentry{List module/creating tables with|hyperpage}{64}
+\indexentry{List module/List.map|hyperpage}{64}
+\indexentry{List module/List.map2\_exn|hyperpage}{65}
+\indexentry{List module/List.fold|hyperpage}{65}
+\indexentry{strings/concatenation of|hyperpage}{66}
+\indexentry{String.concat|hyperpage}{66}
+\indexentry{List module/String.concat and|hyperpage}{66}
+\indexentry{strings/padding of|hyperpage}{66}
+\indexentry{elements/combining with List.reduce|hyperpage}{67}
+\indexentry{List module/List.reduce|hyperpage}{67}
+\indexentry{lists/combining elements in|hyperpage}{67}
+\indexentry{lists/filtering values in|hyperpage}{67}
+\indexentry{values/filtering with List.filter|hyperpage}{67}
+\indexentry{List module/List.filter|hyperpage}{67}
+\indexentry{lists/duplicate removal|hyperpage}{68}
+\indexentry{duplicates, removing|hyperpage}{68}
+\indexentry{elements/partitioning with List.partition\_tf|hyperpage}{68}
+\indexentry{lists/partitioning elements in|hyperpage}{68}
+\indexentry{List module/List.partition\_tf|hyperpage}{68}
+\indexentry{lists/combining|hyperpage}{68}
+\indexentry{List module/List.append|hyperpage}{68}
+\indexentry{List module/List.init|hyperpage}{69}
+\indexentry{lists/computing length of|hyperpage}{69}
+\indexentry{tail recursion|hyperpage}{69}
+\indexentry{recursion/tail recursion|hyperpage}{69}
+\indexentry{stack frames|hyperpage}{70}
+\indexentry{tail calls|hyperpage}{71}
+\indexentry{destutter function|hyperpage}{71}
+\indexentry{lists/duplicate removal|hyperpage}{71}
+\indexentry{duplicates, removing|hyperpage}{71}
+\indexentry{function keyword|hyperpage}{71}
+\indexentry{List.Assoc module/List.Assoc.add|hyperpage}{76}
+\indexentry{List.Assoc module/List.Assoc.find|hyperpage}{76}
+\indexentry{lists/adding new bindings in|hyperpage}{76}
+\indexentry{lists/finding key associations in|hyperpage}{76}
+\indexentry{let ( ) declaration|hyperpage}{77}
+\indexentry{main function|hyperpage}{77}
+\indexentry{OCaml toolchain/ocamlc|hyperpage}{77}
+\indexentry{OCaml toolchain/ocamlfind|hyperpage}{77}
+\indexentry{Base standard library/finding with ocamlfind|hyperpage}{77}
+\indexentry{dune|hyperpage}{78}
+\indexentry{OCaml toolchain/dune|hyperpage}{78}
+\indexentry{modules/basics of|hyperpage}{79}
+\indexentry{files/multi-file programs|hyperpage}{79}
+\indexentry{programs/multi-file programs|hyperpage}{79}
+\indexentry{modules/naming of|hyperpage}{80}
+\indexentry{abstract types|hyperpage}{80}
+\indexentry{modules/module type|hyperpage}{80}
+\indexentry{signatures/abstract types|hyperpage}{80}
+\indexentry{interfaces/hiding implementation details with|hyperpage}{80}
+\indexentry{modules/hiding implementation details|hyperpage}{80}
+\indexentry{interfaces/synonyms for|hyperpage}{80}
+\indexentry{concrete types|hyperpage}{83}
+\indexentry{signatures/concrete types|hyperpage}{83}
+\indexentry{identifiers/dealing with multiple|hyperpage}{84}
+\indexentry{nested modules|hyperpage}{84}
+\indexentry{modules/nested modules|hyperpage}{84}
+\indexentry{abstract types|hyperpage}{84}
+\indexentry{identifiers/open modules and|hyperpage}{86}
+\indexentry{modules/opening|hyperpage}{86}
+\indexentry{local opens|hyperpage}{86}
+\indexentry{modules/including|hyperpage}{87}
+\indexentry{identifiers/adding to modules|hyperpage}{87}
+\indexentry{errors/module type mismatches|hyperpage}{89}
+\indexentry{type mismatches|hyperpage}{89}
+\indexentry{modules/type mismatches in|hyperpage}{89}
+\indexentry{errors/missing module definitions|hyperpage}{89}
+\indexentry{modules/missing definitions in|hyperpage}{89}
+\indexentry{type definition mismatches|hyperpage}{90}
+\indexentry{errors/module type definition mismatches|hyperpage}{90}
+\indexentry{modules/type definition mismatches|hyperpage}{90}
+\indexentry{dependencies, cyclic|hyperpage}{90}
+\indexentry{cyclic dependencies|hyperpage}{90}
+\indexentry{errors/cyclic dependencies|hyperpage}{90}
+\indexentry{modules/cyclic dependencies|hyperpage}{90}
+\indexentry{records/basic syntax for|hyperpage}{94}
+\indexentry{pattern matching/and exhaustiveness|hyperpage}{96}
+\indexentry{records/patterns and exhaustiveness in|hyperpage}{96}
+\indexentry{irrefutable patterns|hyperpage}{96}
+\indexentry{datatypes/fixed vs.  variable structure of|hyperpage}{96}
+\indexentry{errors/compiler warnings|hyperpage}{96}
+\indexentry{code compilers/warning enable/disable|hyperpage}{96}
+\indexentry{errors/missing field warnings|hyperpage}{96}
+\indexentry{records/missing field warnings|hyperpage}{96}
+\indexentry{fields/field punning|hyperpage}{98}
+\indexentry{records/field punning in|hyperpage}{98}
+\indexentry{records/construction of|hyperpage}{98}
+\indexentry{label punning|hyperpage}{98}
+\indexentry{records/label punning in|hyperpage}{98}
+\indexentry{fields/reusing field names|hyperpage}{99}
+\indexentry{records/reusing field names|hyperpage}{99}
+\indexentry{functional updates|hyperpage}{103}
+\indexentry{records/functional updates to|hyperpage}{103}
+\indexentry{mutable record fields|hyperpage}{104}
+\indexentry{records/mutable fields in|hyperpage}{104}
+\indexentry{fields/first-class fields|hyperpage}{105}
+\indexentry{first-class fields|hyperpage}{105}
+\indexentry{records/first-class fields in|hyperpage}{105}
+\indexentry{record field accessor functions|hyperpage}{105}
+\indexentry{Field module/Field.setter|hyperpage}{106}
+\indexentry{Field module/Field.fset|hyperpage}{106}
+\indexentry{Field module/Field.get|hyperpage}{106}
+\indexentry{Field module/Field.name|hyperpage}{106}
+\indexentry{fieldslib|hyperpage}{106}
+\indexentry{variant types/usefulness of|hyperpage}{109}
+\indexentry{variant types/basic syntax of|hyperpage}{109}
+\indexentry{errors/catch-all cases and refactoring|hyperpage}{112}
+\indexentry{pattern matching/catch-all cases|hyperpage}{112}
+\indexentry{functional updates|hyperpage}{112}
+\indexentry{refactoring|hyperpage}{112}
+\indexentry{variant types/catch-all cases and refactoring|hyperpage}{112}
+\indexentry{exhaustion checks|hyperpage}{113}
+\indexentry{sum types|hyperpage}{114}
+\indexentry{product types|hyperpage}{114}
+\indexentry{datatypes/algebraic types|hyperpage}{114}
+\indexentry{algebraic data types|hyperpage}{114}
+\indexentry{recursive data structures|hyperpage}{118}
+\indexentry{data structures/recursive|hyperpage}{118}
+\indexentry{variant types/and recursive data structures|hyperpage}{118}
+\indexentry{polymorphic variant types/basic syntax of|hyperpage}{121}
+\indexentry{polymorphic variant types/automatic inference of|hyperpage}{121}
+\indexentry{polymorphic variant types/upper/lower bounds of|hyperpage}{122}
+\indexentry{polymorphic variant types/vs. ordinary variants|hyperpage}{123}
+\indexentry{pattern matching/catch-all cases|hyperpage}{125}
+\indexentry{catch-all cases|hyperpage}{125}
+\indexentry{polymorphic variant types/and catch-all cases|hyperpage}{125}
+\indexentry{polymorphic variant types/vs. ordinary variants|hyperpage}{127}
+\indexentry{polymorphic variant types/drawbacks of|hyperpage}{127}
+\indexentry{Result.t option|hyperpage}{130}
+\indexentry{Error.t type|hyperpage}{131}
+\indexentry{thunks|hyperpage}{131}
+\indexentry{s-expressions/example of|hyperpage}{131}
+\indexentry{Sexplib package/sexp converter|hyperpage}{131}
+\indexentry{Error.of\_list|hyperpage}{132}
+\indexentry{Error.tag|hyperpage}{132}
+\indexentry{errors/transformation of|hyperpage}{132}
+\indexentry{bind function|hyperpage}{132}
+\indexentry{exceptions/usefulness of|hyperpage}{134}
+\indexentry{error handling/exceptions|hyperpage}{134}
+\indexentry{exn type|hyperpage}{135}
+\indexentry{functions/exception warnings for|hyperpage}{135}
+\indexentry{find\_exn function|hyperpage}{135}
+\indexentry{sexp declaration|hyperpage}{135}
+\indexentry{exceptions/textual representation of|hyperpage}{135}
+\indexentry{exceptions/helper functions for|hyperpage}{136}
+\indexentry{error handling/exception helper functions|hyperpage}{136}
+\indexentry{assert directive|hyperpage}{136}
+\indexentry{exceptions/exception handlers|hyperpage}{137}
+\indexentry{error handling/exception handlers|hyperpage}{137}
+\indexentry{exceptions/exception clean up|hyperpage}{138}
+\indexentry{error handling/exception clean up|hyperpage}{138}
+\indexentry{exceptions/catching specific|hyperpage}{139}
+\indexentry{error handling/exception detection|hyperpage}{139}
+\indexentry{debugging/stack backtraces|hyperpage}{140}
+\indexentry{stack backtraces|hyperpage}{140}
+\indexentry{backtraces|hyperpage}{140}
+\indexentry{exceptions/stack backtraces for|hyperpage}{140}
+\indexentry{error handling/exception backtracing|hyperpage}{140}
+\indexentry{Exn module/Exn.backtrace|hyperpage}{141}
+\indexentry{Exn module/Backtrace.Exn.set\_recording false|hyperpage}{141}
+\indexentry{exceptions/and error-aware types|hyperpage}{143}
+\indexentry{error-aware return types|hyperpage}{143}
+\indexentry{error handling/combining exceptions and error-aware types|hyperpage}{143}
+\indexentry{error handling/strategy choice|hyperpage}{143}
+\indexentry{exceptions/benefits and drawbacks of|hyperpage}{143}
+\indexentry{imperative programming/benefits of|hyperpage}{145}
+\indexentry{pure code|hyperpage}{145}
+\indexentry{programming/immutable vs. imperative|hyperpage}{145}
+\indexentry{Core standard library/imperative dictionaries in|hyperpage}{145}
+\indexentry{open hashing|hyperpage}{145}
+\indexentry{fields/mutability of|hyperpage}{146}
+\indexentry{array-like data|hyperpage}{149}
+\indexentry{data structures/primitive mutable data|hyperpage}{149}
+\indexentry{mutable data|hyperpage}{149}
+\indexentry{primitive mutable data/array-like data|hyperpage}{149}
+\indexentry{imperative programming/primitive mutable data|hyperpage}{149}
+\indexentry{values/copying with Array.blit|hyperpage}{149}
+\indexentry{elements/setting with Array.set|hyperpage}{149}
+\indexentry{Array module/Array.blit|hyperpage}{149}
+\indexentry{Array module/Array.set|hyperpage}{149}
+\indexentry{byte arrays|hyperpage}{149}
+\indexentry{strings/vs. Char.t arrays|hyperpage}{149}
+\indexentry{bigarrays|hyperpage}{150}
+\indexentry{fields/mutability of|hyperpage}{150}
+\indexentry{primitive mutable data/record/object fields and ref cells|hyperpage}{150}
+\indexentry{ref cells|hyperpage}{150}
+\indexentry{libraries/interfacing with external|hyperpage}{151}
+\indexentry{external libraries/interfacing with|hyperpage}{151}
+\indexentry{LAPACK bindings|hyperpage}{151}
+\indexentry{foreign function interface (FFI)/imperative operations and|hyperpage}{151}
+\indexentry{primitive mutable data/foreign functions|hyperpage}{151}
+\indexentry{looping constructs|hyperpage}{151}
+\indexentry{while loops|hyperpage}{151}
+\indexentry{for loops|hyperpage}{151}
+\indexentry{lists/doubly-linked lists|hyperpage}{152}
+\indexentry{doubly-linked lists|hyperpage}{152}
+\indexentry{let rec|hyperpage}{154}
+\indexentry{data structures/cyclic|hyperpage}{154}
+\indexentry{cyclic data structures|hyperpage}{154}
+\indexentry{elements/inserting in lists|hyperpage}{154}
+\indexentry{elements/defining new|hyperpage}{154}
+\indexentry{imperative programming/drawbacks of|hyperpage}{155}
+\indexentry{Doubly-linked module|hyperpage}{155}
+\indexentry{error handling/and imperative data structures|hyperpage}{155}
+\indexentry{functions/iteration functions|hyperpage}{155}
+\indexentry{iteration functions|hyperpage}{155}
+\indexentry{lazy keyword|hyperpage}{156}
+\indexentry{side effects|hyperpage}{156}
+\indexentry{laziness|hyperpage}{156}
+\indexentry{benign effects/laziness|hyperpage}{156}
+\indexentry{imperative programming/benign effects and|hyperpage}{156}
+\indexentry{thunks|hyperpage}{157}
+\indexentry{memoization/of function|hyperpage}{157}
+\indexentry{memoization/benefits and drawbacks of|hyperpage}{158}
+\indexentry{string matching|hyperpage}{158}
+\indexentry{Levenshtein distance|hyperpage}{158}
+\indexentry{edit distance|hyperpage}{158}
+\indexentry{memoization/example of|hyperpage}{158}
+\indexentry{memoization/recursive|hyperpage}{159}
+\indexentry{dynamic programming|hyperpage}{159}
+\indexentry{let rec|hyperpage}{162}
+\indexentry{I/O (input/output) operations/terminal I/O|hyperpage}{163}
+\indexentry{Out\_channel module/Out\_channel.stderr|hyperpage}{164}
+\indexentry{Out\_channel module/Out\_channel.stdout|hyperpage}{164}
+\indexentry{In\_channel module|hyperpage}{164}
+\indexentry{strings/format strings|hyperpage}{165}
+\indexentry{format strings|hyperpage}{165}
+\indexentry{printf function|hyperpage}{165}
+\indexentry{I/O (input/output) operations/formatted output|hyperpage}{165}
+\indexentry{binary numbers, formatting with printf|hyperpage}{167}
+\indexentry{hex numbers, formatting with printf|hyperpage}{167}
+\indexentry{decimals, formatting with printf|hyperpage}{167}
+\indexentry{alignment, formatting with printf|hyperpage}{167}
+\indexentry{sprintf function|hyperpage}{167}
+\indexentry{fprintf function|hyperpage}{167}
+\indexentry{eprintf function|hyperpage}{167}
+\indexentry{files/file I/O|hyperpage}{167}
+\indexentry{I/O (input/output) operations/file I/O|hyperpage}{167}
+\indexentry{strict evaluation|hyperpage}{169}
+\indexentry{expressions, order of evaluation|hyperpage}{169}
+\indexentry{evaluation, order of|hyperpage}{169}
+\indexentry{order of evaluation|hyperpage}{169}
+\indexentry{imperative programming/order of evaluation|hyperpage}{169}
+\indexentry{polymorphism/weak polymorphism|hyperpage}{170}
+\indexentry{weak polymorphism|hyperpage}{170}
+\indexentry{side effects|hyperpage}{170}
+\indexentry{type variables|hyperpage}{171}
+\indexentry{value restriction|hyperpage}{172}
+\indexentry{partial application|hyperpage}{173}
+\indexentry{datatypes/covariant|hyperpage}{175}
+\indexentry{imperative programming/overview of|hyperpage}{176}
+\indexentry{functors/benefits of|hyperpage}{177}
+\indexentry{functors/basic mechanics of|hyperpage}{177}
+\indexentry{interval computation/generic library for|hyperpage}{179}
+\indexentry{interval computation/comparison function for|hyperpage}{181}
+\indexentry{interval computation/abstract functor for|hyperpage}{182}
+\indexentry{sharing constraint|hyperpage}{183}
+\indexentry{destructive substitution|hyperpage}{186}
+\indexentry{interval computation/destructive substitution|hyperpage}{186}
+\indexentry{s-expressions/example of|hyperpage}{188}
+\indexentry{interval computation/multiple interfaces and|hyperpage}{188}
+\indexentry{sexp declaration|hyperpage}{188}
+\indexentry{modules/type-specific functionality in|hyperpage}{192}
+\indexentry{FIFO (first-in, first-out) queue|hyperpage}{192}
+\indexentry{functors/module extension with|hyperpage}{192}
+\indexentry{Monad.Make|hyperpage}{194}
+\indexentry{Hashable.Make|hyperpage}{194}
+\indexentry{Comparable module/Comparable.Make|hyperpage}{194}
+\indexentry{Container.Make|hyperpage}{194}
+\indexentry{module keyword|hyperpage}{195}
+\indexentry{polymorphism/in first-class modules|hyperpage}{197}
+\indexentry{first-class modules/polymorphism in|hyperpage}{197}
+\indexentry{datatypes/locally abstract types|hyperpage}{198}
+\indexentry{abstract types|hyperpage}{198}
+\indexentry{locally abstract types|hyperpage}{198}
+\indexentry{sharing constraint|hyperpage}{198}
+\indexentry{polymorphism/in locally abstract types|hyperpage}{198}
+\indexentry{query-handlers/and first-class modules|hyperpage}{199}
+\indexentry{s-expressions/in queries and responses|hyperpage}{200}
+\indexentry{sexp declaration|hyperpage}{200}
+\indexentry{query-handlers/implementation of|hyperpage}{200}
+\indexentry{query-handlers/dispatching to multiple|hyperpage}{202}
+\indexentry{I.Query\_handler module|hyperpage}{204}
+\indexentry{query-handlers/loading/unloading of|hyperpage}{205}
+\indexentry{first-class modules/alternatives to|hyperpage}{208}
+\indexentry{objects/in object-oriented programming|hyperpage}{210}
+\indexentry{object-oriented programming (OOP)|hyperpage}{210}
+\indexentry{programming/object-oriented programming (OOP)|hyperpage}{210}
+\indexentry{objects/in OCaml|hyperpage}{211}
+\indexentry{polymorphism/in objects|hyperpage}{212}
+\indexentry{objects/polymorphism of|hyperpage}{212}
+\indexentry{open object types|hyperpage}{212}
+\indexentry{polymorphism/row polymorphism|hyperpage}{213}
+\indexentry{row polymorphism|hyperpage}{213}
+\indexentry{ellipses (..)|hyperpage}{213}
+\indexentry{type variables|hyperpage}{213}
+\indexentry{objects/immutable|hyperpage}{214}
+\indexentry{first-class modules/vs.  objects|hyperpage}{215}
+\indexentry{objects/benefits and drawbacks of|hyperpage}{215}
+\indexentry{late binding|hyperpage}{215}
+\indexentry{recursion/open recursion|hyperpage}{215}
+\indexentry{open recursion|hyperpage}{215}
+\indexentry{classes/benefits of|hyperpage}{215}
+\indexentry{Camlimages library|hyperpage}{215}
+\indexentry{Cryptokit library|hyperpage}{215}
+\indexentry{libraries/Cryptokit|hyperpage}{215}
+\indexentry{libraries/Camlimages|hyperpage}{215}
+\indexentry{external libraries/Camlimages|hyperpage}{215}
+\indexentry{external libraries/Cryptokit|hyperpage}{215}
+\indexentry{subtyping/basics of|hyperpage}{215}
+\indexentry{width subtyping|hyperpage}{216}
+\indexentry{subtyping/width subtyping|hyperpage}{216}
+\indexentry{depth subtyping|hyperpage}{216}
+\indexentry{subtyping/depth subtyping|hyperpage}{216}
+\indexentry{invariance|hyperpage}{218}
+\indexentry{covariance|hyperpage}{218}
+\indexentry{contravariance|hyperpage}{218}
+\indexentry{dynamic type checking|hyperpage}{221}
+\indexentry{down casting|hyperpage}{221}
+\indexentry{narrowing|hyperpage}{221}
+\indexentry{objects/narrowing and|hyperpage}{221}
+\indexentry{polymorphism/row polymorphism|hyperpage}{223}
+\indexentry{row polymorphism|hyperpage}{223}
+\indexentry{subtyping/vs.  row polymorphism|hyperpage}{223}
+\indexentry{programming/object-oriented programming (OOP)|hyperpage}{225}
+\indexentry{classes/basic syntax for|hyperpage}{225}
+\indexentry{polymorphism/class parameters and|hyperpage}{226}
+\indexentry{classes/class parameters and polymorphism|hyperpage}{226}
+\indexentry{elements/traversing with iterator objects|hyperpage}{227}
+\indexentry{iterators|hyperpage}{227}
+\indexentry{objects/object types as interfaces|hyperpage}{227}
+\indexentry{interfaces/object types as|hyperpage}{227}
+\indexentry{classes/object types as interfaces|hyperpage}{227}
+\indexentry{functional iterators|hyperpage}{229}
+\indexentry{inheritance|hyperpage}{231}
+\indexentry{classes/inheritance in|hyperpage}{231}
+\indexentry{classes/class types|hyperpage}{231}
+\indexentry{recursion/open recursion|hyperpage}{233}
+\indexentry{open recursion|hyperpage}{233}
+\indexentry{classes/open recursion in|hyperpage}{233}
+\indexentry{methods/private methods|hyperpage}{234}
+\indexentry{protected methods|hyperpage}{234}
+\indexentry{private methods|hyperpage}{234}
+\indexentry{classes/private methods for|hyperpage}{234}
+\indexentry{methods/binary methods|hyperpage}{236}
+\indexentry{classes/binary methods for|hyperpage}{236}
+\indexentry{binary methods|hyperpage}{236}
+\indexentry{methods/method overloading|hyperpage}{237}
+\indexentry{dynamic type checking|hyperpage}{237}
+\indexentry{narrowing|hyperpage}{237}
+\indexentry{polymorphism/polymorphic equality|hyperpage}{237}
+\indexentry{representation types|hyperpage}{237}
+\indexentry{dispatching, dynamic vs. static|hyperpage}{238}
+\indexentry{static dispatch|hyperpage}{238}
+\indexentry{dynamic dispatch|hyperpage}{238}
+\indexentry{virtual methods|hyperpage}{238}
+\indexentry{methods/and virtual classes|hyperpage}{238}
+\indexentry{virtual classes|hyperpage}{238}
+\indexentry{classes/virtual classes|hyperpage}{238}
+\indexentry{geometric shapes|hyperpage}{239}
+\indexentry{initializers|hyperpage}{241}
+\indexentry{classes/initializers for|hyperpage}{241}
+\indexentry{multiple inheritance/name resolution in|hyperpage}{242}
+\indexentry{inheritance|hyperpage}{242}
+\indexentry{classes/multiple inheritance in|hyperpage}{242}
+\indexentry{mixin patterns|hyperpage}{243}
+\indexentry{multiple inheritance/mixin pattern and|hyperpage}{243}
+\indexentry{animation/creating with mixins|hyperpage}{244}
+\indexentry{linear mixins|hyperpage}{245}
+\indexentry{animation/displaying animated shapes|hyperpage}{245}
+\indexentry{multiple inheritance/displaying animated shapes with|hyperpage}{245}
+\indexentry{js\_of\_ocaml library|hyperpage}{246}
+\indexentry{LabIGL library|hyperpage}{246}
+\indexentry{Lablgtk library|hyperpage}{246}
+\indexentry{graphics libraries|hyperpage}{246}
+\indexentry{libraries/for graphics|hyperpage}{246}
+\indexentry{external libraries/for graphics|hyperpage}{246}
+\indexentry{key/value pairs|hyperpage}{247}
+\indexentry{data structures/key/value pairs|hyperpage}{247}
+\indexentry{lists/association lists|hyperpage}{247}
+\indexentry{association lists|hyperpage}{247}
+\indexentry{hash tables/basics of|hyperpage}{247}
+\indexentry{maps/basics of|hyperpage}{247}
+\indexentry{set types|hyperpage}{249}
+\indexentry{maps/polymorphic comparison in|hyperpage}{254}
+\indexentry{polymorphic comparisons|hyperpage}{254}
+\indexentry{Map module/Map.to\_tree|hyperpage}{259}
+\indexentry{maps/tree structure|hyperpage}{259}
+\indexentry{hash tables/basics of|hyperpage}{260}
+\indexentry{functions/hash functions|hyperpage}{260}
+\indexentry{Hashtbl module|hyperpage}{260}
+\indexentry{hash tables/time complexity of|hyperpage}{260}
+\indexentry{security issues/denial-of-service attacks|hyperpage}{260}
+\indexentry{denial-of-service attacks, avoiding|hyperpage}{260}
+\indexentry{hash tables/polymorphic hash function|hyperpage}{262}
+\indexentry{maps/vs. hashtables|hyperpage}{263}
+\indexentry{hash tables/vs. maps|hyperpage}{263}
+\indexentry{phys\_equal function|hyperpage}{265}
+\indexentry{equal equal (= =) operator|hyperpage}{265}
+\indexentry{equal (=) operator|hyperpage}{265}
+\indexentry{structural equality|hyperpage}{265}
+\indexentry{physical equality|hyperpage}{265}
+\indexentry{equality, tests of|hyperpage}{265}
+\indexentry{command-line parsing/Command library for|hyperpage}{266}
+\indexentry{combinators/functional combinators|hyperpage}{266}
+\indexentry{MD5 one-way cryptographic hash function|hyperpage}{266}
+\indexentry{command-line parsing/basic approach to|hyperpage}{266}
+\indexentry{Command.basic|hyperpage}{267}
+\indexentry{arguments/argument types|hyperpage}{271}
+\indexentry{command-line parsing/argument types|hyperpage}{271}
+\indexentry{arguments/defining custom types|hyperpage}{272}
+\indexentry{arguments/default arguments|hyperpage}{273}
+\indexentry{default arguments|hyperpage}{273}
+\indexentry{optional arguments/and default arguments|hyperpage}{273}
+\indexentry{arguments/optional arguments|hyperpage}{273}
+\indexentry{arguments/sequences of|hyperpage}{275}
+\indexentry{flags|hyperpage}{275}
+\indexentry{command-line parsing/labeled flags and|hyperpage}{275}
+\indexentry{flag functions|hyperpage}{277}
+\indexentry{subcommands, grouping of|hyperpage}{277}
+\indexentry{OPAM package manager|hyperpage}{277}
+\indexentry{command-line parsing/subcommand grouping|hyperpage}{277}
+\indexentry{install keyword|hyperpage}{277}
+\indexentry{remote keyword|hyperpage}{277}
+\indexentry{Command.group|hyperpage}{278}
+\indexentry{interactive input/prompts for|hyperpage}{280}
+\indexentry{tab-autocompletion|hyperpage}{282}
+\indexentry{autocompletion|hyperpage}{282}
+\indexentry{command-line parsing/autocompletion with bash|hyperpage}{282}
+\indexentry{bash autocompletion|hyperpage}{282}
+\indexentry{completion handlers|hyperpage}{283}
+\indexentry{Cmdliner|hyperpage}{283}
+\indexentry{OCaml toolchain/ocaml-getopt|hyperpage}{283}
+\indexentry{Arg module|hyperpage}{283}
+\indexentry{command-line parsing/alternatives to Command library|hyperpage}{283}
+\indexentry{OPAM package manager|hyperpage}{283}
+\indexentry{JSON data/basics of|hyperpage}{285}
+\indexentry{RFC4627|hyperpage}{285}
+\indexentry{values/in JSON data|hyperpage}{285}
+\indexentry{key/value pairs|hyperpage}{285}
+\indexentry{JSON data/benefits and drawbacks of|hyperpage}{286}
+\indexentry{Yojson library/installation of|hyperpage}{286}
+\indexentry{static checking|hyperpage}{286}
+\indexentry{compile-time static checking|hyperpage}{286}
+\indexentry{unit tests|hyperpage}{286}
+\indexentry{JSON data/parsing with Yojson|hyperpage}{286}
+\indexentry{Yojson library/parsing JSON with|hyperpage}{286}
+\indexentry{recursion/in json types|hyperpage}{286}
+\indexentry{polymorphic variant types/in JSON data|hyperpage}{287}
+\indexentry{combinators/functional combinators|hyperpage}{289}
+\indexentry{functional combinators|hyperpage}{289}
+\indexentry{combinators/in Yojson library|hyperpage}{289}
+\indexentry{Yojson library/combinators in|hyperpage}{289}
+\indexentry{filter\_string function|hyperpage}{290}
+\indexentry{to\_init function|hyperpage}{290}
+\indexentry{functions/to\_init function|hyperpage}{290}
+\indexentry{to\_string function|hyperpage}{290}
+\indexentry{functions/to\_string function|hyperpage}{290}
+\indexentry{functions/member functions|hyperpage}{290}
+\indexentry{member function|hyperpage}{290}
+\indexentry{values/in JSON data|hyperpage}{291}
+\indexentry{JSON data/constructing values|hyperpage}{291}
+\indexentry{errors/type errors|hyperpage}{292}
+\indexentry{type checking|hyperpage}{292}
+\indexentry{polymorphic variant types/type checking and|hyperpage}{292}
+\indexentry{type inference/benefits of|hyperpage}{292}
+\indexentry{Yojson library/extended JSON format support|hyperpage}{293}
+\indexentry{JSON data/nonstandard extensions for|hyperpage}{293}
+\indexentry{variant types/Yojson support for|hyperpage}{294}
+\indexentry{tuples|hyperpage}{294}
+\indexentry{lit suffix|hyperpage}{294}
+\indexentry{ATDgen Library/installation of|hyperpage}{294}
+\indexentry{Domain Specific Language|hyperpage}{294}
+\indexentry{ATDgen Library/basics of|hyperpage}{295}
+\indexentry{GitHub API|hyperpage}{295}
+\indexentry{OAuth web protocol|hyperpage}{295}
+\indexentry{ATDgen Library/annotations in|hyperpage}{296}
+\indexentry{ATDgen Library/compiling specifications to OCaml|hyperpage}{296}
+\indexentry{flags|hyperpage}{297}
+\indexentry{GitHub API|hyperpage}{298}
+\indexentry{ATDgen Library/example of|hyperpage}{298}
+\indexentry{parsing/parser generators|hyperpage}{301}
+\indexentry{ocamlyacc parser generator|hyperpage}{301}
+\indexentry{Menhir parser generator/vs. ocamlyacc|hyperpage}{301}
+\indexentry{AST (abstract syntax-tree)|hyperpage}{302}
+\indexentry{lexical analysis (lexing)|hyperpage}{302}
+\indexentry{files/mly files|hyperpage}{304}
+\indexentry{tokens, declaration of|hyperpage}{304}
+\indexentry{grammars/context-free|hyperpage}{304}
+\indexentry{LR(1) grammars|hyperpage}{304}
+\indexentry{start symbols|hyperpage}{304}
+\indexentry{non-terminal symbols|hyperpage}{304}
+\indexentry{context-free grammars|hyperpage}{304}
+\indexentry{Menhir parser generator/context-free grammars in|hyperpage}{304}
+\indexentry{semantic actions|hyperpage}{305}
+\indexentry{curly braces (\{ \})|hyperpage}{305}
+\indexentry{values/in JSON data|hyperpage}{305}
+\indexentry{rev\_object\_fields|hyperpage}{306}
+\indexentry{object\_fields|hyperpage}{306}
+\indexentry{Menhir parser generator/left-recursive definitions|hyperpage}{306}
+\indexentry{Menhir parser generator/built-in rules of|hyperpage}{307}
+\indexentry{Menhir parser generator/invoking|hyperpage}{307}
+\indexentry{lexers/specification of|hyperpage}{307}
+\indexentry{OCaml toolchain/ocamllex|hyperpage}{307}
+\indexentry{mll files|hyperpage}{307}
+\indexentry{files/mll files|hyperpage}{307}
+\indexentry{lexers/optional OCaml code for|hyperpage}{307}
+\indexentry{regular expressions|hyperpage}{308}
+\indexentry{lexers/regular expressions collection|hyperpage}{308}
+\indexentry{lexers/rules for|hyperpage}{309}
+\indexentry{pattern matching/vs. lexing rules|hyperpage}{309}
+\indexentry{recursion/in lexers|hyperpage}{310}
+\indexentry{lexers/recursive rules|hyperpage}{310}
+\indexentry{lexers/Unicode parsing|hyperpage}{311}
+\indexentry{Uutf Unicode codec|hyperpage}{311}
+\indexentry{OCaml toolchain/ocamllex|hyperpage}{311}
+\indexentry{Ulex lexer generator|hyperpage}{311}
+\indexentry{Camomile unicode parser|hyperpage}{311}
+\indexentry{Unicode, parsing solutions for|hyperpage}{311}
+\indexentry{parsing/lexer and parser composition|hyperpage}{311}
+\indexentry{errors/"give up on first error" approach|hyperpage}{311}
+\indexentry{Menhir parser generator/error handling in|hyperpage}{312}
+\indexentry{s-expressions/uses for|hyperpage}{314}
+\indexentry{data serialization/with s-expressions|hyperpage}{314}
+\indexentry{s-expressions/basic usage of|hyperpage}{314}
+\indexentry{pretty printers|hyperpage}{315}
+\indexentry{top-level printers|hyperpage}{316}
+\indexentry{s-expressions/generating from OCaml types|hyperpage}{316}
+\indexentry{Sexplib package/syntax extension in|hyperpage}{317}
+\indexentry{syntax extension/in Sexplib package|hyperpage}{317}
+\indexentry{PPX syntax extensions|hyperpage}{318}
+\indexentry{syntax extension with PPX|hyperpage}{318}
+\indexentry{Type\_conv library|hyperpage}{318}
+\indexentry{Sexplib package/Type\_conv library and|hyperpage}{318}
+\indexentry{s-expressions/format of|hyperpage}{318}
+\indexentry{s-expressions/preserving invariants in|hyperpage}{319}
+\indexentry{invariant checks|hyperpage}{321}
+\indexentry{debugging/s-expressions|hyperpage}{322}
+\indexentry{errors/error messages with s-expressions|hyperpage}{322}
+\indexentry{s-expressions/deserializing a type from|hyperpage}{322}
+\indexentry{s-expressions/modifying default behavior of|hyperpage}{324}
+\indexentry{Sexplib package/sexp\_opaque|hyperpage}{324}
+\indexentry{Sexplib package/sexp\_list|hyperpage}{325}
+\indexentry{Sexplib package/sexp\_option|hyperpage}{326}
+\indexentry{s-expressions/specifying defaults in|hyperpage}{326}
+\indexentry{files/config files|hyperpage}{328}
+\indexentry{config file formats|hyperpage}{328}
+\indexentry{interactive input/concurrent programming for|hyperpage}{329}
+\indexentry{concurrent programming|hyperpage}{329}
+\indexentry{programming/concurrent programming with Async|hyperpage}{329}
+\indexentry{threads/preemptive vs. single-threaded programs|hyperpage}{329}
+\indexentry{event loops|hyperpage}{329}
+\indexentry{system threads|hyperpage}{329}
+\indexentry{Async library/benefits of|hyperpage}{329}
+\indexentry{blocking|hyperpage}{330}
+\indexentry{Deferred.t|hyperpage}{330}
+\indexentry{Deferred.peek|hyperpage}{330}
+\indexentry{Deferred.bind|hyperpage}{331}
+\indexentry{bind function|hyperpage}{331}
+\indexentry{return function|hyperpage}{331}
+\indexentry{monads|hyperpage}{332}
+\indexentry{ivars|hyperpage}{333}
+\indexentry{Async library/ivars|hyperpage}{333}
+\indexentry{thunks|hyperpage}{334}
+\indexentry{Writer module|hyperpage}{335}
+\indexentry{Reader module|hyperpage}{335}
+\indexentry{I/O (input/output) operations/copying data|hyperpage}{335}
+\indexentry{end-of-file condition|hyperpage}{336}
+\indexentry{tail calls|hyperpage}{336}
+\indexentry{TCP clients/servers|hyperpage}{337}
+\indexentry{Scheduler.go|hyperpage}{338}
+\indexentry{loop\_forever|hyperpage}{338}
+\indexentry{never\_returns|hyperpage}{338}
+\indexentry{functions/non-returning|hyperpage}{338}
+\indexentry{Deferred.never|hyperpage}{339}
+\indexentry{pipes|hyperpage}{340}
+\indexentry{cohttp library|hyperpage}{341}
+\indexentry{uri library|hyperpage}{341}
+\indexentry{textwrap library|hyperpage}{341}
+\indexentry{DuckDuckGo search engine/additional libraries needed|hyperpage}{341}
+\indexentry{search engines|hyperpage}{341}
+\indexentry{RFC3986|hyperpage}{341}
+\indexentry{Uniform Resource Identifiers (URIs)|hyperpage}{341}
+\indexentry{DuckDuckGo search engine/URI handling in|hyperpage}{341}
+\indexentry{Yojson library/parsing JSON with|hyperpage}{342}
+\indexentry{DuckDuckGo search engine/parsing JSON strings in|hyperpage}{342}
+\indexentry{RFC4627|hyperpage}{342}
+\indexentry{query-handlers/executing an HTTP client query|hyperpage}{342}
+\indexentry{client queries|hyperpage}{342}
+\indexentry{HTTP client queries|hyperpage}{342}
+\indexentry{DuckDuckGo search engine/executing an HTTP client query in|hyperpage}{342}
+\indexentry{exceptions/in concurrent programming|hyperpage}{345}
+\indexentry{concurrent programming|hyperpage}{345}
+\indexentry{exceptions/asynchronous errors|hyperpage}{346}
+\indexentry{monitors|hyperpage}{346}
+\indexentry{exceptions/search engine example|hyperpage}{348}
+\indexentry{DuckDuckGo search engine/exception handling in|hyperpage}{348}
+\indexentry{errors/timeouts and cancellations|hyperpage}{350}
+\indexentry{Deferred.both|hyperpage}{350}
+\indexentry{cancellations|hyperpage}{350}
+\indexentry{timeouts|hyperpage}{350}
+\indexentry{Async library/timeouts and cancellations|hyperpage}{350}
+\indexentry{parallelism|hyperpage}{353}
+\indexentry{kernel-level threads|hyperpage}{353}
+\indexentry{threads/kernel-level threads|hyperpage}{353}
+\indexentry{threads/benefits of|hyperpage}{353}
+\indexentry{In\_thread module|hyperpage}{354}
+\indexentry{mutexes|hyperpage}{356}
+\indexentry{segfaults|hyperpage}{356}
+\indexentry{threads/locking and|hyperpage}{356}
+\indexentry{threads/thread-safety|hyperpage}{356}
+\indexentry{programming/language interfaces|hyperpage}{357}
+\indexentry{foreign function interface (FFI)/basics of|hyperpage}{357}
+\indexentry{libffi library|hyperpage}{357}
+\indexentry{Ncurses terminal toolkit|hyperpage}{357}
+\indexentry{Ctypes library/installation of|hyperpage}{357}
+\indexentry{Ctypes library/terminal interface example|hyperpage}{358}
+\indexentry{Ctypes library/build directives for|hyperpage}{361}
+\indexentry{scalar C types|hyperpage}{361}
+\indexentry{foreign function interface (FFI)/basic scalar C types|hyperpage}{361}
+\indexentry{C99 scalar types|hyperpage}{361}
+\indexentry{POSIX functions|hyperpage}{362}
+\indexentry{arrays/pointers and|hyperpage}{362}
+\indexentry{pointers/support for in Ctypes|hyperpage}{362}
+\indexentry{foreign function interface (FFI)/pointers and arrays|hyperpage}{362}
+\indexentry{memory/allocation for pointers|hyperpage}{364}
+\indexentry{pointers/allocating typed memory for|hyperpage}{364}
+\indexentry{mapping/complex values with views|hyperpage}{364}
+\indexentry{values/mapping complex with views|hyperpage}{364}
+\indexentry{unions|hyperpage}{365}
+\indexentry{structs and unions/structure definition|hyperpage}{365}
+\indexentry{foreign function interface (FFI)/structs and unions|hyperpage}{365}
+\indexentry{fields/adding to structures|hyperpage}{366}
+\indexentry{structs and unions/field addition|hyperpage}{366}
+\indexentry{structs and unions/incomplete structure definitions|hyperpage}{367}
+\indexentry{structs and unions/time-printing command|hyperpage}{368}
+\indexentry{returning function|hyperpage}{368}
+\indexentry{arrays/definition of|hyperpage}{370}
+\indexentry{structs and unions/array definition|hyperpage}{370}
+\indexentry{operators/controlling pointers|hyperpage}{370}
+\indexentry{pointers/operators controlling|hyperpage}{370}
+\indexentry{functions/passing to C|hyperpage}{372}
+\indexentry{foreign function interface (FFI)/passing functions to C|hyperpage}{372}
+\indexentry{qsort binding|hyperpage}{373}
+\indexentry{memory/and allocated Ctypes|hyperpage}{374}
+\indexentry{Ctypes library/lifetime of allocated Ctypes|hyperpage}{374}
+\indexentry{garbage collection/of allocated Ctypes|hyperpage}{374}
+\indexentry{foreign function interface (FFI)/C bindings|hyperpage}{375}
+\indexentry{memory/layout for structs|hyperpage}{376}
+\indexentry{structs and unions/memory layout of|hyperpage}{376}
+\indexentry{runtime memory representation/importance of|hyperpage}{378}
+\indexentry{interfaces/with OCaml binaries|hyperpage}{378}
+\indexentry{OCaml toolchain/benefits of|hyperpage}{378}
+\indexentry{type checking|hyperpage}{378}
+\indexentry{AST (abstract syntax-tree)|hyperpage}{378}
+\indexentry{compilation process/phases of|hyperpage}{378}
+\indexentry{dynamic type checking|hyperpage}{378}
+\indexentry{compile-time static checking|hyperpage}{378}
+\indexentry{pointers/values for|hyperpage}{379}
+\indexentry{integers|hyperpage}{379}
+\indexentry{values/integer vs. pointer|hyperpage}{379}
+\indexentry{garbage collection/and boxed values|hyperpage}{379}
+\indexentry{boxing (of values)|hyperpage}{379}
+\indexentry{values/boxing of|hyperpage}{379}
+\indexentry{word-aligned pointers|hyperpage}{380}
+\indexentry{pointers/word-aligned|hyperpage}{380}
+\indexentry{unaligned memory access|hyperpage}{380}
+\indexentry{runtime memory representation/blocks and values|hyperpage}{381}
+\indexentry{garbage collection/opaque bytes and|hyperpage}{381}
+\indexentry{opaque bytes|hyperpage}{381}
+\indexentry{integers|hyperpage}{382}
+\indexentry{unboxed integers|hyperpage}{382}
+\indexentry{arrays/memory representation of|hyperpage}{382}
+\indexentry{records/memory representation of|hyperpage}{382}
+\indexentry{tuples|hyperpage}{382}
+\indexentry{runtime memory representation/tuples, records, and arrays|hyperpage}{382}
+\indexentry{floating-point values|hyperpage}{383}
+\indexentry{variant types/memory representation of|hyperpage}{384}
+\indexentry{lists/memory representation of|hyperpage}{384}
+\indexentry{runtime memory representation/variants and lists|hyperpage}{384}
+\indexentry{debugging/Obj module warning|hyperpage}{384}
+\indexentry{security issues/Obj module warning|hyperpage}{384}
+\indexentry{Obj module|hyperpage}{384}
+\indexentry{polymorphic variant types/memory representation of|hyperpage}{385}
+\indexentry{runtime memory representation/polymorphic variants|hyperpage}{385}
+\indexentry{strings/memory representation of|hyperpage}{386}
+\indexentry{runtime memory representation/string values|hyperpage}{386}
+\indexentry{custom heap blocks|hyperpage}{387}
+\indexentry{runtime memory representation/custom heap blocks|hyperpage}{387}
+\indexentry{finalizers/for C cleanup functions|hyperpage}{387}
+\indexentry{Fortran libraries|hyperpage}{387}
+\indexentry{linear algebra|hyperpage}{387}
+\indexentry{LAPACK mathematical library|hyperpage}{387}
+\indexentry{BLAS mathematical library|hyperpage}{387}
+\indexentry{Lacaml library|hyperpage}{387}
+\indexentry{Bigstring module|hyperpage}{387}
+\indexentry{Iobuf module|hyperpage}{387}
+\indexentry{external memory|hyperpage}{387}
+\indexentry{memory/managing external|hyperpage}{387}
+\indexentry{bigarrays|hyperpage}{387}
+\indexentry{memory/memory management|hyperpage}{389}
+\indexentry{values/allocation requests and|hyperpage}{389}
+\indexentry{heaps/heap blocks|hyperpage}{389}
+\indexentry{heaps/definition of|hyperpage}{389}
+\indexentry{mark and sweep garbage collection|hyperpage}{389}
+\indexentry{garbage collection/mark and sweep collection|hyperpage}{389}
+\indexentry{generational garbage collection|hyperpage}{389}
+\indexentry{garbage collection/generational collection|hyperpage}{389}
+\indexentry{heaps/regions of|hyperpage}{389}
+\indexentry{generational hypothesis|hyperpage}{390}
+\indexentry{OCAMLRUNPARAM|hyperpage}{390}
+\indexentry{Gc module|hyperpage}{390}
+\indexentry{heaps/minor heaps|hyperpage}{390}
+\indexentry{minor heaps/garbage collection in|hyperpage}{390}
+\indexentry{copying collection|hyperpage}{390}
+\indexentry{garbage collection/of short-lived values|hyperpage}{390}
+\indexentry{minor heaps/allocating on|hyperpage}{390}
+\indexentry{minor heaps/setting size of|hyperpage}{391}
+\indexentry{garbage collection/mark and sweep collection|hyperpage}{391}
+\indexentry{mark and sweep garbage collection|hyperpage}{391}
+\indexentry{major heaps/garbage collection in|hyperpage}{391}
+\indexentry{garbage collection/of longer-lived values|hyperpage}{391}
+\indexentry{malloc(3)|hyperpage}{392}
+\indexentry{major heaps/allocating on|hyperpage}{392}
+\indexentry{major heaps/controlling growth of|hyperpage}{392}
+\indexentry{memory/major heap allocation strategies|hyperpage}{393}
+\indexentry{major heaps/memory allocation strategies|hyperpage}{393}
+\indexentry{first-fit allocation|hyperpage}{393}
+\indexentry{next-fit allocation|hyperpage}{393}
+\indexentry{memory/reducing fragmentation of|hyperpage}{394}
+\indexentry{major heaps/marking and scanning|hyperpage}{394}
+\indexentry{root values|hyperpage}{395}
+\indexentry{gray values|hyperpage}{395}
+\indexentry{impure heaps|hyperpage}{395}
+\indexentry{major heaps/controlling collections|hyperpage}{395}
+\indexentry{memory/reducing fragmentation of|hyperpage}{395}
+\indexentry{compaction|hyperpage}{395}
+\indexentry{major heaps/heap compaction|hyperpage}{395}
+\indexentry{pointers/intergenerational pointers|hyperpage}{396}
+\indexentry{intergenerational pointers|hyperpage}{396}
+\indexentry{major heaps/intergenerational pointers in|hyperpage}{396}
+\indexentry{write barriers|hyperpage}{396}
+\indexentry{remembered sets|hyperpage}{396}
+\indexentry{values/finalizer functions for|hyperpage}{398}
+\indexentry{finalizers/in grabage collection|hyperpage}{398}
+\indexentry{garbage collection/finalizer functions|hyperpage}{398}
+\indexentry{heaps/Heap\_block module|hyperpage}{399}
+\indexentry{compilation process/toolchain for|hyperpage}{401}
+\indexentry{static checking|hyperpage}{401}
+\indexentry{compile-time static checking|hyperpage}{401}
+\indexentry{OCaml toolchain/ocamlc|hyperpage}{401}
+\indexentry{OCaml toolchain/ocamlopt|hyperpage}{401}
+\indexentry{OCaml toolchain/overview of|hyperpage}{401}
+\indexentry{compilation units|hyperpage}{401}
+\indexentry{compilation process/diagram of|hyperpage}{401}
+\indexentry{compilation process/compiler source code|hyperpage}{402}
+\indexentry{code compilers/bytecode vs. native code|hyperpage}{402}
+\indexentry{AST (abstract syntax-tree)|hyperpage}{403}
+\indexentry{errors/syntax errors|hyperpage}{403}
+\indexentry{syntax errors|hyperpage}{403}
+\indexentry{source code/automatically indenting|hyperpage}{403}
+\indexentry{debugging/single errant characters|hyperpage}{404}
+\indexentry{OCaml toolchain/ocamldoc|hyperpage}{405}
+\indexentry{interfaces/generating documentation from|hyperpage}{405}
+\indexentry{documentation, generating from interfaces|hyperpage}{405}
+\indexentry{Xen|hyperpage}{406}
+\indexentry{JSON data/Xen custom generator for|hyperpage}{406}
+\indexentry{Bibtex|hyperpage}{406}
+\indexentry{OCaml toolchain/ocamldoc-generators|hyperpage}{406}
+\indexentry{Argot HTML generator|hyperpage}{406}
+\indexentry{HTML generators|hyperpage}{406}
+\indexentry{explicit subtyping|hyperpage}{406}
+\indexentry{automatic type inference|hyperpage}{406}
+\indexentry{subtyping/in static type checking|hyperpage}{406}
+\indexentry{modules/in static type checking|hyperpage}{406}
+\indexentry{type inference/in static type checking|hyperpage}{406}
+\indexentry{modules/benefits of|hyperpage}{407}
+\indexentry{type inference/drawbacks of|hyperpage}{407}
+\indexentry{code compilers/order of code|hyperpage}{408}
+\indexentry{mli files|hyperpage}{408}
+\indexentry{files/mli files|hyperpage}{408}
+\indexentry{ml files|hyperpage}{408}
+\indexentry{files/ml files|hyperpage}{408}
+\indexentry{Hindley-Milner algorithm|hyperpage}{408}
+\indexentry{type inference/algorithm basis of|hyperpage}{408}
+\indexentry{type inference/error detection with|hyperpage}{409}
+\indexentry{annotations, for type checking|hyperpage}{409}
+\indexentry{errors/detecting with type annotations|hyperpage}{409}
+\indexentry{type annotations|hyperpage}{409}
+\indexentry{compile-time static checking|hyperpage}{409}
+\indexentry{polymorphic variant types/type checking and|hyperpage}{409}
+\indexentry{row polymorphism|hyperpage}{409}
+\indexentry{type inference/principality checks|hyperpage}{411}
+\indexentry{risky type|hyperpage}{411}
+\indexentry{principal type checking|hyperpage}{411}
+\indexentry{modules/separate compilation in|hyperpage}{413}
+\indexentry{compilation units|hyperpage}{413}
+\indexentry{files/relationship with modules|hyperpage}{414}
+\indexentry{modules/defining search paths|hyperpage}{414}
+\indexentry{cmi files|hyperpage}{414}
+\indexentry{files/cmi files|hyperpage}{414}
+\indexentry{OCaml toolchain/ocamlogjinfo|hyperpage}{414}
+\indexentry{modules/packing together|hyperpage}{415}
+\indexentry{errors/reducing verbosity in|hyperpage}{417}
+\indexentry{short paths heuristic|hyperpage}{418}
+\indexentry{cmti files|hyperpage}{418}
+\indexentry{cmt files|hyperpage}{418}
+\indexentry{files/cmtii files|hyperpage}{418}
+\indexentry{files/cmt files|hyperpage}{418}
+\indexentry{AST (abstract syntax-tree)|hyperpage}{418}
+\indexentry{autocompletion|hyperpage}{418}
+\indexentry{ocp-index|hyperpage}{418}
+\indexentry{flags|hyperpage}{419}
+\indexentry{lambda form code/basics of|hyperpage}{425}
+\indexentry{pattern matching/optimization in lambda form code|hyperpage}{425}
+\indexentry{lambda form code/pattern matching optimization|hyperpage}{425}
+\indexentry{pattern matching/fundamental algorithms in|hyperpage}{427}
+\indexentry{pattern matching/benchmarking of|hyperpage}{428}
+\indexentry{lambda form code/pattern matching benchmarking|hyperpage}{428}
+\indexentry{OCaml toolchain/ocamlrun|hyperpage}{429}
+\indexentry{OCaml toolchain/ocamlc|hyperpage}{429}
+\indexentry{bytecode compiler/tools used|hyperpage}{429}
+\indexentry{bytecode compiler/values stored by|hyperpage}{429}
+\indexentry{code offset values|hyperpage}{429}
+\indexentry{block values|hyperpage}{429}
+\indexentry{long values|hyperpage}{429}
+\indexentry{values/stored by bytecode compiler|hyperpage}{429}
+\indexentry{bytecode compiler/instruction set for|hyperpage}{430}
+\indexentry{bytecode compiler/compiling and linking code|hyperpage}{431}
+\indexentry{custom runtime mode|hyperpage}{431}
+\indexentry{\%.byte rule|hyperpage}{432}
+\indexentry{C object files|hyperpage}{432}
+\indexentry{cmi files|hyperpage}{433}
+\indexentry{files/cmi files|hyperpage}{433}
+\indexentry{cmx files|hyperpage}{433}
+\indexentry{files/cmx files|hyperpage}{433}
+\indexentry{o files|hyperpage}{433}
+\indexentry{files/o files|hyperpage}{433}
+\indexentry{OCaml toolchain/ocamlopt|hyperpage}{433}
+\indexentry{native-code compiler/benefits of|hyperpage}{433}
+\indexentry{native-code compiler/inspecting assembly output|hyperpage}{434}
+\indexentry{polymorphic comparisons|hyperpage}{434}
+\indexentry{backtraces|hyperpage}{436}
+\indexentry{debugging/native code binaries|hyperpage}{437}
+\indexentry{native-code compiler/debugging binaries|hyperpage}{437}
+\indexentry{gdb debugger|hyperpage}{437}
+\indexentry{debugging/interactive debuggers|hyperpage}{437}
+\indexentry{functions/name mangling of|hyperpage}{437}
+\indexentry{name mangling|hyperpage}{437}
+\indexentry{GNU debugger|hyperpage}{438}
+\indexentry{profiling|hyperpage}{440}
+\indexentry{performance profiling|hyperpage}{440}
+\indexentry{native-code compiler/performance profiling|hyperpage}{440}
+\indexentry{gprof code profiler|hyperpage}{440}
+\indexentry{frame pointers|hyperpage}{441}
+\indexentry{libasmrun.a library|hyperpage}{442}
+\indexentry{native-code compiler/embedding code in C|hyperpage}{442}
+\indexentry{debugging/activating debug runtime|hyperpage}{442}
+\indexentry{files/chart of file extensions|hyperpage}{443}
+\indexentry{compilation process/file extensions|hyperpage}{443}
+\indexentry{native-code compiler/files generated by|hyperpage}{444}

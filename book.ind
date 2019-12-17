@@ -1,0 +1,1034 @@
+\begin{theindex}
+
+  \item \%.byte rule, \hyperpage{424}
+
+  \indexspace
+
+  \item abstract types, \hyperpage{72}, \hyperpage{76}, \hyperpage{190}
+  \item algebraic data types, \hyperpage{106}
+  \item alignment, formatting with printf, \hyperpage{159}
+  \item animation/creating with mixins, \hyperpage{236}
+  \item animation/displaying animated shapes, \hyperpage{237}
+  \item annotations, for type checking, \hyperpage{401}
+  \item anonymous functions, \hyperpage{24}, \hyperpage{34}
+  \item Arg module, \hyperpage{275}
+  \item Argot HTML generator, \hyperpage{398}
+  \item arguments/argument types, \hyperpage{263}
+  \item arguments/default arguments, \hyperpage{265}
+  \item arguments/defining custom types, \hyperpage{264}
+  \item arguments/inference of, \hyperpage{47}
+  \item arguments/labeled arguments, \hyperpage{16}, \hyperpage{43}
+  \item arguments/optional arguments, \hyperpage{265}
+  \item arguments/sequences of, \hyperpage{267}
+  \item Array module/Array.blit, \hyperpage{141}
+  \item Array module/Array.set, \hyperpage{141}
+  \item array-like data, \hyperpage{141}
+  \item arrays/definition of, \hyperpage{362}
+  \item arrays/imperative programming and, \hyperpage{25}
+  \item arrays/memory representation of, \hyperpage{374}
+  \item arrays/pointers and, \hyperpage{354}
+  \item assert directive, \hyperpage{128}
+  \item association lists, \hyperpage{239}
+  \item AST (abstract syntax-tree), \hyperpage{294}, \hyperpage{370}, 
+		\hyperpage{395}, \hyperpage{410}
+  \item Async library/benefits of, \hyperpage{321}
+  \item Async library/ivars, \hyperpage{325}
+  \item Async library/timeouts and cancellations, \hyperpage{342}
+  \item ATDgen Library/annotations in, \hyperpage{288}
+  \item ATDgen Library/basics of, \hyperpage{287}
+  \item ATDgen Library/compiling specifications to OCaml, 
+		\hyperpage{288}
+  \item ATDgen Library/example of, \hyperpage{290}
+  \item ATDgen Library/installation of, \hyperpage{286}
+  \item autocompletion, \hyperpage{274}, \hyperpage{410}
+  \item automatic type inference, \hyperpage{398}
+
+  \indexspace
+
+  \item backtraces, \hyperpage{132}, \hyperpage{428}
+  \item Base standard library, \hyperpage{4}
+  \item Base standard library/finding with ocamlfind, \hyperpage{69}
+  \item bash autocompletion, \hyperpage{274}
+  \item benign effects/laziness, \hyperpage{148}
+  \item Bibtex, \hyperpage{398}
+  \item bigarrays, \hyperpage{142}, \hyperpage{379}
+  \item Bigstring module, \hyperpage{379}
+  \item binary methods, \hyperpage{228}
+  \item binary numbers, formatting with printf, \hyperpage{159}
+  \item bind function, \hyperpage{124}, \hyperpage{323}
+  \item bindings/scope of, \hyperpage{31}
+  \item bindings/top-level, \hyperpage{31}
+  \item BLAS mathematical library, \hyperpage{379}
+  \item block values, \hyperpage{421}
+  \item blocking, \hyperpage{322}
+  \item boxing (of values), \hyperpage{371}
+  \item byte arrays, \hyperpage{141}
+  \item bytecode compiler/compiling and linking code, \hyperpage{423}
+  \item bytecode compiler/instruction set for, \hyperpage{422}
+  \item bytecode compiler/tools used, \hyperpage{421}
+  \item bytecode compiler/values stored by, \hyperpage{421}
+
+  \indexspace
+
+  \item C object files, \hyperpage{424}
+  \item C99 scalar types, \hyperpage{353}
+  \item Camlimages library, \hyperpage{207}
+  \item Camomile unicode parser, \hyperpage{303}
+  \item cancellations, \hyperpage{342}
+  \item catch-all cases, \hyperpage{117}
+  \item classes/basic syntax for, \hyperpage{217}
+  \item classes/benefits of, \hyperpage{207}
+  \item classes/binary methods for, \hyperpage{228}
+  \item classes/class parameters and polymorphism, \hyperpage{218}
+  \item classes/class types, \hyperpage{223}
+  \item classes/inheritance in, \hyperpage{223}
+  \item classes/initializers for, \hyperpage{233}
+  \item classes/multiple inheritance in, \hyperpage{234}
+  \item classes/object types as interfaces, \hyperpage{219}
+  \item classes/open recursion in, \hyperpage{225}
+  \item classes/private methods for, \hyperpage{226}
+  \item classes/virtual classes, \hyperpage{230}
+  \item client queries, \hyperpage{334}
+  \item Cmdliner, \hyperpage{275}
+  \item cmi files, \hyperpage{406}, \hyperpage{425}
+  \item cmt files, \hyperpage{410}
+  \item cmti files, \hyperpage{410}
+  \item cmx files, \hyperpage{425}
+  \item code compilers/bytecode vs. native code, \hyperpage{394}
+  \item code compilers/order of code, \hyperpage{400}
+  \item code compilers/warning enable/disable, \hyperpage{88}
+  \item code offset values, \hyperpage{421}
+  \item cohttp library, \hyperpage{333}
+  \item combinators/functional combinators, \hyperpage{258}, 
+		\hyperpage{281}
+  \item combinators/in Yojson library, \hyperpage{281}
+  \item command-line parsing/alternatives to Command library, 
+		\hyperpage{275}
+  \item command-line parsing/argument types, \hyperpage{263}
+  \item command-line parsing/autocompletion with bash, \hyperpage{274}
+  \item command-line parsing/basic approach to, \hyperpage{258}
+  \item command-line parsing/Command library for, \hyperpage{258}
+  \item command-line parsing/labeled flags and, \hyperpage{267}
+  \item command-line parsing/subcommand grouping, \hyperpage{269}
+  \item Command.basic, \hyperpage{259}
+  \item Command.group, \hyperpage{270}
+  \item commas vs. semicolons, \hyperpage{17}
+  \item compaction, \hyperpage{387}
+  \item Comparable module/Comparable.Make, \hyperpage{186}
+  \item compilation process/compiler source code, \hyperpage{394}
+  \item compilation process/diagram of, \hyperpage{393}
+  \item compilation process/file extensions, \hyperpage{435}
+  \item compilation process/phases of, \hyperpage{370}
+  \item compilation process/toolchain for, \hyperpage{393}
+  \item compilation units, \hyperpage{393}, \hyperpage{405}
+  \item compile-time static checking, \hyperpage{278}, \hyperpage{370}, 
+		\hyperpage{393}, \hyperpage{401}
+  \item completion handlers, \hyperpage{275}
+  \item concrete types, \hyperpage{75}
+  \item concurrent programming, \hyperpage{321}, \hyperpage{337}
+  \item config file formats, \hyperpage{320}
+  \item Container.Make, \hyperpage{186}
+  \item context-free grammars, \hyperpage{296}
+  \item contravariance, \hyperpage{210}
+  \item copying collection, \hyperpage{382}
+  \item Core standard library/imperative dictionaries in, 
+		\hyperpage{137}
+  \item Core standard library/opening, \hyperpage{9}
+  \item covariance, \hyperpage{210}
+  \item Cryptokit library, \hyperpage{207}
+  \item Ctypes library/build directives for, \hyperpage{353}
+  \item Ctypes library/installation of, \hyperpage{349}
+  \item Ctypes library/lifetime of allocated Ctypes, \hyperpage{366}
+  \item Ctypes library/terminal interface example, \hyperpage{350}
+  \item curly braces (\{ \}), \hyperpage{297}
+  \item curried functions, \hyperpage{36}
+  \item custom heap blocks, \hyperpage{379}
+  \item custom runtime mode, \hyperpage{423}
+  \item cyclic data structures, \hyperpage{146}
+  \item cyclic dependencies, \hyperpage{82}
+
+  \indexspace
+
+  \item data serialization/with s-expressions, \hyperpage{306}
+  \item data structures/arrays, \hyperpage{25}
+  \item data structures/cyclic, \hyperpage{146}
+  \item data structures/immutable, \hyperpage{24}
+  \item data structures/key/value pairs, \hyperpage{239}
+  \item data structures/mutable record fields, \hyperpage{25}
+  \item data structures/options, \hyperpage{21}
+  \item data structures/pattern matching and, \hyperpage{53}
+  \item data structures/primitive mutable data, \hyperpage{141}
+  \item data structures/recursive, \hyperpage{110}
+  \item data structures/tuples, \hyperpage{15}
+  \item datatypes/algebraic types, \hyperpage{106}
+  \item datatypes/covariant, \hyperpage{167}
+  \item datatypes/defining new, \hyperpage{22}
+  \item datatypes/fixed vs.  variable structure of, \hyperpage{88}
+  \item datatypes/locally abstract types, \hyperpage{190}
+  \item datatypes/nullable, \hyperpage{22}
+  \item datatypes/record types, \hyperpage{22}
+  \item datatypes/variant types, \hyperpage{23}
+  \item debugging/activating debug runtime, \hyperpage{434}
+  \item debugging/interactive debuggers, \hyperpage{429}
+  \item debugging/native code binaries, \hyperpage{429}
+  \item debugging/Obj module warning, \hyperpage{376}
+  \item debugging/s-expressions, \hyperpage{314}
+  \item debugging/single errant characters, \hyperpage{396}
+  \item debugging/stack backtraces, \hyperpage{132}
+  \item decimals, formatting with printf, \hyperpage{159}
+  \item default arguments, \hyperpage{265}
+  \item Deferred.bind, \hyperpage{323}
+  \item Deferred.both, \hyperpage{342}
+  \item Deferred.never, \hyperpage{331}
+  \item Deferred.peek, \hyperpage{322}
+  \item Deferred.t, \hyperpage{322}
+  \item denial-of-service attacks, avoiding, \hyperpage{252}
+  \item dependencies, cyclic, \hyperpage{82}
+  \item depth subtyping, \hyperpage{208}
+  \item destructive substitution, \hyperpage{178}
+  \item destutter function, \hyperpage{63}
+  \item dispatching, dynamic vs. static, \hyperpage{230}
+  \item documentation, generating from interfaces, \hyperpage{397}
+  \item Domain Specific Language, \hyperpage{286}
+  \item doubly-linked lists, \hyperpage{144}
+  \item Doubly-linked module, \hyperpage{147}
+  \item down casting, \hyperpage{213}
+  \item DuckDuckGo search engine/additional libraries needed, 
+		\hyperpage{333}
+  \item DuckDuckGo search engine/exception handling in, \hyperpage{340}
+  \item DuckDuckGo search engine/executing an HTTP client query in, 
+		\hyperpage{334}
+  \item DuckDuckGo search engine/parsing JSON strings in, 
+		\hyperpage{334}
+  \item DuckDuckGo search engine/URI handling in, \hyperpage{333}
+  \item dune, \hyperpage{70}
+  \item duplicates, removing, \hyperpage{41}, \hyperpage{60}, 
+		\hyperpage{63}
+  \item dynamic dispatch, \hyperpage{230}
+  \item dynamic programming, \hyperpage{151}
+  \item dynamic type checking, \hyperpage{213}, \hyperpage{229}, 
+		\hyperpage{370}
+
+  \indexspace
+
+  \item edit distance, \hyperpage{150}
+  \item elements/combining with List.reduce, \hyperpage{59}
+  \item elements/defining new, \hyperpage{146}
+  \item elements/inserting in lists, \hyperpage{146}
+  \item elements/partitioning with List.partition\_tf, \hyperpage{60}
+  \item elements/setting with Array.set, \hyperpage{141}
+  \item elements/traversing with iterator objects, \hyperpage{219}
+  \item ellipses (..), \hyperpage{205}
+  \item end-of-file condition, \hyperpage{328}
+  \item eprintf function, \hyperpage{159}
+  \item equal (=) operator, \hyperpage{257}
+  \item equal equal (= =) operator, \hyperpage{257}
+  \item equality, tests of, \hyperpage{257}
+  \item error handling/and imperative data structures, \hyperpage{147}
+  \item error handling/combining exceptions and error-aware types, 
+		\hyperpage{135}
+  \item error handling/exception backtracing, \hyperpage{132}
+  \item error handling/exception clean up, \hyperpage{130}
+  \item error handling/exception detection, \hyperpage{131}
+  \item error handling/exception handlers, \hyperpage{129}
+  \item error handling/exception helper functions, \hyperpage{128}
+  \item error handling/exceptions, \hyperpage{126}
+  \item error handling/strategy choice, \hyperpage{135}
+  \item error-aware return types, \hyperpage{135}
+  \item Error.of\_list, \hyperpage{124}
+  \item Error.t type, \hyperpage{123}
+  \item Error.tag, \hyperpage{124}
+  \item errors/catch-all cases and refactoring, \hyperpage{104}
+  \item errors/compiler warnings, \hyperpage{88}
+  \item errors/cyclic dependencies, \hyperpage{82}
+  \item errors/detecting with match statements, \hyperpage{55}
+  \item errors/detecting with type annotations, \hyperpage{401}
+  \item errors/error messages with s-expressions, \hyperpage{314}
+  \item errors/give up on first error approach, \hyperpage{303}
+  \item errors/missing field warnings, \hyperpage{88}
+  \item errors/missing module definitions, \hyperpage{81}
+  \item errors/module type definition mismatches, \hyperpage{82}
+  \item errors/module type mismatches, \hyperpage{81}
+  \item errors/reducing verbosity in, \hyperpage{409}
+  \item errors/runtime vs. compile time, \hyperpage{14}
+  \item errors/syntax errors, \hyperpage{395}
+  \item errors/timeouts and cancellations, \hyperpage{342}
+  \item errors/transformation of, \hyperpage{124}
+  \item errors/type errors, \hyperpage{284}
+  \item evaluation, order of, \hyperpage{161}
+  \item event loops, \hyperpage{321}
+  \item exceptions/and error-aware types, \hyperpage{135}
+  \item exceptions/asynchronous errors, \hyperpage{338}
+  \item exceptions/benefits and drawbacks of, \hyperpage{135}
+  \item exceptions/catching specific, \hyperpage{131}
+  \item exceptions/exception clean up, \hyperpage{130}
+  \item exceptions/exception handlers, \hyperpage{129}
+  \item exceptions/helper functions for, \hyperpage{128}
+  \item exceptions/in concurrent programming, \hyperpage{337}
+  \item exceptions/search engine example, \hyperpage{340}
+  \item exceptions/stack backtraces for, \hyperpage{132}
+  \item exceptions/textual representation of, \hyperpage{127}
+  \item exceptions/usefulness of, \hyperpage{126}
+  \item exceptions/vs. type errors, \hyperpage{14}
+  \item exhaustion checks, \hyperpage{105}
+  \item Exn module/Backtrace.Exn.set\_recording false, \hyperpage{133}
+  \item Exn module/Exn.backtrace, \hyperpage{133}
+  \item exn type, \hyperpage{127}
+  \item explicit subtyping, \hyperpage{398}
+  \item expressions, order of evaluation, \hyperpage{161}
+  \item external libraries/Camlimages, \hyperpage{207}
+  \item external libraries/Cryptokit, \hyperpage{207}
+  \item external libraries/for graphics, \hyperpage{238}
+  \item external libraries/interfacing with, \hyperpage{143}
+  \item external memory, \hyperpage{379}
+
+  \indexspace
+
+  \item Field module/Field.fset, \hyperpage{98}
+  \item Field module/Field.get, \hyperpage{98}
+  \item Field module/Field.name, \hyperpage{98}
+  \item Field module/Field.setter, \hyperpage{98}
+  \item fields/adding to structures, \hyperpage{358}
+  \item fields/field punning, \hyperpage{23}, \hyperpage{90}
+  \item fields/first-class fields, \hyperpage{97}
+  \item fields/mutability of, \hyperpage{138}, \hyperpage{142}
+  \item fields/reusing field names, \hyperpage{91}
+  \item fieldslib, \hyperpage{98}
+  \item FIFO (first-in, first-out) queue, \hyperpage{184}
+  \item files/chart of file extensions, \hyperpage{435}
+  \item files/cmi files, \hyperpage{406}, \hyperpage{425}
+  \item files/cmt files, \hyperpage{410}
+  \item files/cmtii files, \hyperpage{410}
+  \item files/cmx files, \hyperpage{425}
+  \item files/config files, \hyperpage{320}
+  \item files/file I/O, \hyperpage{159}
+  \item files/ml files, \hyperpage{400}
+  \item files/mli files, \hyperpage{400}
+  \item files/mll files, \hyperpage{299}
+  \item files/mly files, \hyperpage{296}
+  \item files/multi-file programs, \hyperpage{71}
+  \item files/o files, \hyperpage{425}
+  \item files/relationship with modules, \hyperpage{406}
+  \item filter\_string function, \hyperpage{282}
+  \item finalizers/for C cleanup functions, \hyperpage{379}
+  \item finalizers/in grabage collection, \hyperpage{390}
+  \item find\_exn function, \hyperpage{127}
+  \item first-class fields, \hyperpage{97}
+  \item first-class modules/alternatives to, \hyperpage{200}
+  \item first-class modules/polymorphism in, \hyperpage{189}
+  \item first-class modules/vs.  objects, \hyperpage{207}
+  \item first-fit allocation, \hyperpage{385}
+  \item flag functions, \hyperpage{269}
+  \item flags, \hyperpage{267}, \hyperpage{289}, \hyperpage{411}
+  \item floating-point values, \hyperpage{375}
+  \item for loops, \hyperpage{28}, \hyperpage{143}
+  \item foreign function interface (FFI)/basic scalar C types, 
+		\hyperpage{353}
+  \item foreign function interface (FFI)/basics of, \hyperpage{349}
+  \item foreign function interface (FFI)/C bindings, \hyperpage{367}
+  \item foreign function interface (FFI)/imperative operations and, 
+		\hyperpage{143}
+  \item foreign function interface (FFI)/passing functions to C, 
+		\hyperpage{364}
+  \item foreign function interface (FFI)/pointers and arrays, 
+		\hyperpage{354}
+  \item foreign function interface (FFI)/structs and unions, 
+		\hyperpage{357}
+  \item format strings, \hyperpage{157}
+  \item Fortran libraries, \hyperpage{379}
+  \item fprintf function, \hyperpage{159}
+  \item frame pointers, \hyperpage{433}
+  \item fun keyword/anonymous functions, \hyperpage{34}
+  \item fun keyword/currying syntax, \hyperpage{37}
+  \item fun keyword/multi-argument functions, \hyperpage{36}
+  \item function keyword, \hyperpage{42}, \hyperpage{63}
+  \item functional code, \hyperpage{24}
+  \item functional combinators, \hyperpage{281}
+  \item functional iterators, \hyperpage{221}
+  \item functional updates, \hyperpage{95}, \hyperpage{104}
+  \item functions/anonymous functions, \hyperpage{24}, \hyperpage{34}
+  \item functions/argument inference, \hyperpage{47}
+  \item functions/curried functions, \hyperpage{36}
+  \item functions/declaring with function keyword, \hyperpage{42}
+  \item functions/defining, \hyperpage{10}, \hyperpage{42}
+  \item functions/exception warnings for, \hyperpage{127}
+  \item functions/hash functions, \hyperpage{252}
+  \item functions/higher-order and labels, \hyperpage{44}
+  \item functions/iteration functions, \hyperpage{147}
+  \item functions/labeled arguments, \hyperpage{43}
+  \item functions/member functions, \hyperpage{282}
+  \item functions/multi-argument functions, \hyperpage{36}
+  \item functions/name mangling of, \hyperpage{429}
+  \item functions/non-returning, \hyperpage{330}
+  \item functions/passing to C, \hyperpage{364}
+  \item functions/recursive functions, \hyperpage{37}
+  \item functions/to\_init function, \hyperpage{282}
+  \item functions/to\_string function, \hyperpage{282}
+  \item functions/with   multiple arguments, \hyperpage{43}
+  \item functions/with multiple arguments, \hyperpage{11}
+  \item functors/basic mechanics of, \hyperpage{169}
+  \item functors/benefits of, \hyperpage{169}
+  \item functors/module extension with, \hyperpage{184}
+
+  \indexspace
+
+  \item garbage collection/and boxed values, \hyperpage{371}
+  \item garbage collection/finalizer functions, \hyperpage{390}
+  \item garbage collection/generational collection, \hyperpage{381}
+  \item garbage collection/mark and sweep collection, \hyperpage{381}, 
+		\hyperpage{383}
+  \item garbage collection/of allocated Ctypes, \hyperpage{366}
+  \item garbage collection/of longer-lived values, \hyperpage{383}
+  \item garbage collection/of short-lived values, \hyperpage{382}
+  \item garbage collection/opaque bytes and, \hyperpage{373}
+  \item Gc module, \hyperpage{382}
+  \item gdb debugger, \hyperpage{429}
+  \item generational garbage collection, \hyperpage{381}
+  \item generational hypothesis, \hyperpage{382}
+  \item geometric shapes, \hyperpage{231}
+  \item GitHub API, \hyperpage{287}, \hyperpage{290}
+  \item GNU debugger, \hyperpage{430}
+  \item gprof code profiler, \hyperpage{432}
+  \item grammars/context-free, \hyperpage{296}
+  \item graphics libraries, \hyperpage{238}
+  \item gray values, \hyperpage{387}
+
+  \indexspace
+
+  \item hash tables/basics of, \hyperpage{239}, \hyperpage{252}
+  \item hash tables/polymorphic hash function, \hyperpage{254}
+  \item hash tables/time complexity of, \hyperpage{252}
+  \item hash tables/vs. maps, \hyperpage{255}
+  \item Hashable.Make, \hyperpage{186}
+  \item Hashtbl module, \hyperpage{252}
+  \item heaps/definition of, \hyperpage{381}
+  \item heaps/heap blocks, \hyperpage{381}
+  \item heaps/Heap\_block module, \hyperpage{391}
+  \item heaps/minor heaps, \hyperpage{382}
+  \item heaps/regions of, \hyperpage{381}
+  \item hex numbers, formatting with printf, \hyperpage{159}
+  \item higher-order functions, and labels, \hyperpage{44}
+  \item Hindley-Milner algorithm, \hyperpage{400}
+  \item HTML generators, \hyperpage{398}
+  \item HTTP client queries, \hyperpage{334}
+
+  \indexspace
+
+  \item I.Query\_handler module, \hyperpage{196}
+  \item I/O (input/output) operations/copying data, \hyperpage{327}
+  \item I/O (input/output) operations/file I/O, \hyperpage{159}
+  \item I/O (input/output) operations/formatted output, \hyperpage{157}
+  \item I/O (input/output) operations/terminal I/O, \hyperpage{155}
+  \item identifiers/adding to modules, \hyperpage{79}
+  \item identifiers/dealing with multiple, \hyperpage{76}
+  \item identifiers/open modules and, \hyperpage{78}
+  \item imperative programming/arrays, \hyperpage{25}
+  \item imperative programming/benefits of, \hyperpage{137}
+  \item imperative programming/benign effects and, \hyperpage{148}
+  \item imperative programming/drawbacks of, \hyperpage{147}
+  \item imperative programming/for and while loops, \hyperpage{28}
+  \item imperative programming/mutable record fields, \hyperpage{25}
+  \item imperative programming/order of evaluation, \hyperpage{161}
+  \item imperative programming/overview of, \hyperpage{168}
+  \item imperative programming/primitive mutable data, \hyperpage{141}
+  \item imperative programming/ref type, \hyperpage{26}
+  \item impure heaps, \hyperpage{387}
+  \item In\_channel module, \hyperpage{156}
+  \item In\_thread module, \hyperpage{346}
+  \item infix operators, \hyperpage{38}
+  \item inheritance, \hyperpage{223}, \hyperpage{234}
+  \item initializers, \hyperpage{233}
+  \item install keyword, \hyperpage{269}
+  \item installation instructions, \hyperpage{6}
+  \item integers, \hyperpage{371}, \hyperpage{374}
+  \item interactive input/concurrent programming for, \hyperpage{321}
+  \item interactive input/prompts for, \hyperpage{272}
+  \item interfaces/generating documentation from, \hyperpage{397}
+  \item interfaces/hiding implementation details with, \hyperpage{72}
+  \item interfaces/object types as, \hyperpage{219}
+  \item interfaces/synonyms for, \hyperpage{72}
+  \item interfaces/with OCaml binaries, \hyperpage{370}
+  \item intergenerational pointers, \hyperpage{388}
+  \item interval computation/abstract functor for, \hyperpage{174}
+  \item interval computation/comparison function for, \hyperpage{173}
+  \item interval computation/destructive substitution, \hyperpage{178}
+  \item interval computation/generic library for, \hyperpage{171}
+  \item interval computation/multiple interfaces and, \hyperpage{180}
+  \item invariance, \hyperpage{210}
+  \item invariant checks, \hyperpage{313}
+  \item Iobuf module, \hyperpage{379}
+  \item irrefutable patterns, \hyperpage{34}, \hyperpage{88}
+  \item iteration functions, \hyperpage{147}
+  \item iterators, \hyperpage{219}
+  \item ivars, \hyperpage{325}
+
+  \indexspace
+
+  \item js\_of\_ocaml library, \hyperpage{238}
+  \item JSON data/basics of, \hyperpage{277}
+  \item JSON data/benefits and drawbacks of, \hyperpage{278}
+  \item JSON data/constructing values, \hyperpage{283}
+  \item JSON data/nonstandard extensions for, \hyperpage{285}
+  \item JSON data/parsing with Yojson, \hyperpage{278}
+  \item JSON data/Xen custom generator for, \hyperpage{398}
+
+  \indexspace
+
+  \item kernel-level threads, \hyperpage{345}
+  \item key/value pairs, \hyperpage{239}, \hyperpage{277}
+
+  \indexspace
+
+  \item label punning, \hyperpage{43}, \hyperpage{90}
+  \item labeled arguments, \hyperpage{16}, \hyperpage{43}, 
+		\hyperpage{47}
+  \item LabIGL library, \hyperpage{238}
+  \item Lablgtk library, \hyperpage{238}
+  \item Lacaml library, \hyperpage{379}
+  \item lambda form code/basics of, \hyperpage{417}
+  \item lambda form code/pattern matching benchmarking, \hyperpage{420}
+  \item lambda form code/pattern matching optimization, \hyperpage{417}
+  \item LAPACK bindings, \hyperpage{143}
+  \item LAPACK mathematical library, \hyperpage{379}
+  \item late binding, \hyperpage{207}
+  \item laziness, \hyperpage{148}
+  \item lazy keyword, \hyperpage{148}
+  \item let ( ) declaration, \hyperpage{69}
+  \item let rec, \hyperpage{146}, \hyperpage{154}
+  \item let syntax/function definition with, \hyperpage{10}
+  \item let syntax/functions and, \hyperpage{36}
+  \item let syntax/nested bindings, \hyperpage{32}
+  \item let syntax/nested let binding, \hyperpage{21}
+  \item let syntax/nonrecursive vs. recursive functions, \hyperpage{38}
+  \item let syntax/pattern matching, \hyperpage{33}
+  \item let syntax/top-level bindings, \hyperpage{31}
+  \item Levenshtein distance, \hyperpage{150}
+  \item lexers/optional OCaml code for, \hyperpage{299}
+  \item lexers/recursive rules, \hyperpage{302}
+  \item lexers/regular expressions collection, \hyperpage{300}
+  \item lexers/rules for, \hyperpage{301}
+  \item lexers/specification of, \hyperpage{299}
+  \item lexers/Unicode parsing, \hyperpage{303}
+  \item lexical analysis (lexing), \hyperpage{294}
+  \item libasmrun.a library, \hyperpage{434}
+  \item libffi library, \hyperpage{349}
+  \item libraries/Camlimages, \hyperpage{207}
+  \item libraries/Cryptokit, \hyperpage{207}
+  \item libraries/for graphics, \hyperpage{238}
+  \item libraries/interfacing with external, \hyperpage{143}
+  \item linear algebra, \hyperpage{379}
+  \item linear mixins, \hyperpage{237}
+  \item List module/creating tables with, \hyperpage{56}
+  \item List module/List.append, \hyperpage{60}
+  \item List module/List.filter, \hyperpage{59}
+  \item List module/List.fold, \hyperpage{57}
+  \item List module/List.init, \hyperpage{61}
+  \item List module/List.map, \hyperpage{56}
+  \item List module/List.map2\_exn, \hyperpage{57}
+  \item List module/List.partition\_tf, \hyperpage{60}
+  \item List module/List.reduce, \hyperpage{59}
+  \item List module/String.concat and, \hyperpage{58}
+  \item List.Assoc module/List.Assoc.add, \hyperpage{68}
+  \item List.Assoc module/List.Assoc.find, \hyperpage{68}
+  \item List.dedup\_and\_sort, \hyperpage{41}
+  \item lists/adding new bindings in, \hyperpage{68}
+  \item lists/association lists, \hyperpage{239}
+  \item lists/combining, \hyperpage{60}
+  \item lists/combining elements in, \hyperpage{59}
+  \item lists/computing length of, \hyperpage{61}
+  \item lists/doubly-linked lists, \hyperpage{144}
+  \item lists/duplicate removal, \hyperpage{41}, \hyperpage{60}, 
+		\hyperpage{63}
+  \item lists/extension of, \hyperpage{51}
+  \item lists/extracting data from, \hyperpage{52}
+  \item lists/filtering values in, \hyperpage{59}
+  \item lists/finding key associations in, \hyperpage{68}
+  \item lists/generation of, \hyperpage{51}
+  \item lists/memory representation of, \hyperpage{376}
+  \item lists/operator : :, \hyperpage{17}, \hyperpage{51}
+  \item lists/partitioning elements in, \hyperpage{60}
+  \item lists/pattern matching, \hyperpage{18}
+  \item lists/recursive list functions, \hyperpage{19}
+  \item lists/structure of, \hyperpage{51}
+  \item lit suffix, \hyperpage{286}
+  \item local opens, \hyperpage{78}
+  \item locally abstract types, \hyperpage{190}
+  \item long values, \hyperpage{421}
+  \item loop\_forever, \hyperpage{330}
+  \item looping constructs, \hyperpage{143}
+  \item LR(1) grammars, \hyperpage{296}
+
+  \indexspace
+
+  \item main function, \hyperpage{69}
+  \item major heaps/allocating on, \hyperpage{384}
+  \item major heaps/controlling collections, \hyperpage{387}
+  \item major heaps/controlling growth of, \hyperpage{384}
+  \item major heaps/garbage collection in, \hyperpage{383}
+  \item major heaps/heap compaction, \hyperpage{387}
+  \item major heaps/intergenerational pointers in, \hyperpage{388}
+  \item major heaps/marking and scanning, \hyperpage{386}
+  \item major heaps/memory allocation strategies, \hyperpage{385}
+  \item malloc(3), \hyperpage{384}
+  \item Map module/Map.to\_tree, \hyperpage{251}
+  \item mapping/complex values with views, \hyperpage{356}
+  \item maps/basics of, \hyperpage{239}
+  \item maps/polymorphic comparison in, \hyperpage{246}
+  \item maps/tree structure, \hyperpage{251}
+  \item maps/vs. hashtables, \hyperpage{255}
+  \item mark and sweep garbage collection, \hyperpage{381}, 
+		\hyperpage{383}
+  \item match statements, \hyperpage{52}, \hyperpage{55}
+  \item MD5 one-way cryptographic hash function, \hyperpage{258}
+  \item member function, \hyperpage{282}
+  \item memoization/benefits and drawbacks of, \hyperpage{150}
+  \item memoization/example of, \hyperpage{150}
+  \item memoization/of function, \hyperpage{149}
+  \item memoization/recursive, \hyperpage{151}
+  \item memory/allocation for pointers, \hyperpage{356}
+  \item memory/and allocated Ctypes, \hyperpage{366}
+  \item memory/layout for structs, \hyperpage{368}
+  \item memory/major heap allocation strategies, \hyperpage{385}
+  \item memory/managing external, \hyperpage{379}
+  \item memory/memory management, \hyperpage{381}
+  \item memory/reducing fragmentation of, \hyperpage{386, 387}
+  \item Menhir parser generator/built-in rules of, \hyperpage{299}
+  \item Menhir parser generator/context-free grammars in, 
+		\hyperpage{296}
+  \item Menhir parser generator/error handling in, \hyperpage{304}
+  \item Menhir parser generator/invoking, \hyperpage{299}
+  \item Menhir parser generator/left-recursive definitions, 
+		\hyperpage{298}
+  \item Menhir parser generator/vs. ocamlyacc, \hyperpage{293}
+  \item methods/and virtual classes, \hyperpage{230}
+  \item methods/binary methods, \hyperpage{228}
+  \item methods/method overloading, \hyperpage{229}
+  \item methods/private methods, \hyperpage{226}
+  \item minor heaps/allocating on, \hyperpage{382}
+  \item minor heaps/garbage collection in, \hyperpage{382}
+  \item minor heaps/setting size of, \hyperpage{383}
+  \item mixin patterns, \hyperpage{235}
+  \item ml files, \hyperpage{400}
+  \item mli files, \hyperpage{400}
+  \item mll files, \hyperpage{299}
+  \item module keyword, \hyperpage{187}
+  \item modules/basics of, \hyperpage{71}
+  \item modules/benefits of, \hyperpage{399}
+  \item modules/cyclic dependencies, \hyperpage{82}
+  \item modules/defining search paths, \hyperpage{406}
+  \item modules/hiding implementation details, \hyperpage{72}
+  \item modules/in static type checking, \hyperpage{398}
+  \item modules/including, \hyperpage{79}
+  \item modules/missing definitions in, \hyperpage{81}
+  \item modules/module type, \hyperpage{72}
+  \item modules/naming of, \hyperpage{72}
+  \item modules/nested modules, \hyperpage{76}
+  \item modules/opening, \hyperpage{78}
+  \item modules/packing together, \hyperpage{407}
+  \item modules/separate compilation in, \hyperpage{405}
+  \item modules/type definition mismatches, \hyperpage{82}
+  \item modules/type mismatches in, \hyperpage{81}
+  \item modules/type-specific functionality in, \hyperpage{184}
+  \item Monad.Make, \hyperpage{186}
+  \item monads, \hyperpage{324}
+  \item monitors, \hyperpage{338}
+  \item multi-argument functions, \hyperpage{11}, \hyperpage{36}, 
+		\hyperpage{43}
+  \item multiple inheritance/displaying animated shapes with, 
+		\hyperpage{237}
+  \item multiple inheritance/mixin pattern and, \hyperpage{235}
+  \item multiple inheritance/name resolution in, \hyperpage{234}
+  \item mutable data, \hyperpage{141}
+  \item mutable record fields, \hyperpage{25}, \hyperpage{96}
+  \item mutexes, \hyperpage{348}
+
+  \indexspace
+
+  \item name mangling, \hyperpage{429}
+  \item narrowing, \hyperpage{213}, \hyperpage{229}
+  \item native-code compiler/benefits of, \hyperpage{425}
+  \item native-code compiler/debugging binaries, \hyperpage{429}
+  \item native-code compiler/embedding code in C, \hyperpage{434}
+  \item native-code compiler/files generated by, \hyperpage{436}
+  \item native-code compiler/inspecting assembly output, 
+		\hyperpage{426}
+  \item native-code compiler/performance profiling, \hyperpage{432}
+  \item Ncurses terminal toolkit, \hyperpage{349}
+  \item negation operators, \hyperpage{40}
+  \item nested let binding, \hyperpage{32}
+  \item nested modules, \hyperpage{76}
+  \item never\_returns, \hyperpage{330}
+  \item next-fit allocation, \hyperpage{385}
+  \item non-terminal symbols, \hyperpage{296}
+  \item numerical calculations, \hyperpage{9}
+
+  \indexspace
+
+  \item o files, \hyperpage{425}
+  \item OAuth web protocol, \hyperpage{287}
+  \item Obj module, \hyperpage{376}
+  \item object-oriented programming (OOP), \hyperpage{202}
+  \item object\_fields, \hyperpage{298}
+  \item objects/benefits and drawbacks of, \hyperpage{207}
+  \item objects/immutable, \hyperpage{206}
+  \item objects/in object-oriented programming, \hyperpage{202}
+  \item objects/in OCaml, \hyperpage{203}
+  \item objects/narrowing and, \hyperpage{213}
+  \item objects/object types as interfaces, \hyperpage{219}
+  \item objects/polymorphism of, \hyperpage{204}
+  \item OCaml toolchain/benefits of, \hyperpage{370}
+  \item OCaml toolchain/dune, \hyperpage{70}
+  \item OCaml toolchain/ocaml-getopt, \hyperpage{275}
+  \item OCaml toolchain/ocamlc, \hyperpage{69}, \hyperpage{393}, 
+		\hyperpage{421}
+  \item OCaml toolchain/ocamldoc, \hyperpage{397}
+  \item OCaml toolchain/ocamldoc-generators, \hyperpage{398}
+  \item OCaml toolchain/ocamlfind, \hyperpage{69}
+  \item OCaml toolchain/ocamllex, \hyperpage{299}, \hyperpage{303}
+  \item OCaml toolchain/ocamlogjinfo, \hyperpage{406}
+  \item OCaml toolchain/ocamlopt, \hyperpage{393}, \hyperpage{425}
+  \item OCaml toolchain/ocamlrun, \hyperpage{421}
+  \item OCaml toolchain/overview of, \hyperpage{393}
+  \item OCaml/benefits of, \hyperpage{2}
+  \item OCaml/code examples for, \hyperpage{6}
+  \item OCaml/history of, \hyperpage{2}
+  \item OCaml/installation instructions, \hyperpage{6}
+  \item OCaml/key features of, \hyperpage{1}
+  \item OCaml/numerical calculations in, \hyperpage{9}
+  \item OCaml/operating system support, \hyperpage{6}
+  \item OCaml/third-party libraries for, \hyperpage{4}
+  \item OCAMLRUNPARAM, \hyperpage{382}
+  \item ocamlyacc parser generator, \hyperpage{293}
+  \item ocp-index, \hyperpage{410}
+  \item OPAM package manager, \hyperpage{269}, \hyperpage{275}
+  \item opaque bytes, \hyperpage{373}
+  \item open hashing, \hyperpage{137}
+  \item open object types, \hyperpage{204}
+  \item open recursion, \hyperpage{207}, \hyperpage{225}
+  \item operators/: : operator, \hyperpage{17}, \hyperpage{51}
+  \item operators/controlling pointers, \hyperpage{362}
+  \item operators/negation operators, \hyperpage{40}
+  \item operators/prefix and infix operators, \hyperpage{38}
+  \item operators/sequencing operators, \hyperpage{41}
+  \item operators/subtraction operators, \hyperpage{40}
+  \item optional arguments/and default arguments, \hyperpage{265}
+  \item optional arguments/explicit passing of, \hyperpage{46}
+  \item optional arguments/inference of, \hyperpage{47}
+  \item options, \hyperpage{21}
+  \item or-patterns, \hyperpage{38}
+  \item order of evaluation, \hyperpage{161}
+  \item Out\_channel module/Out\_channel.stderr, \hyperpage{156}
+  \item Out\_channel module/Out\_channel.stdout, \hyperpage{156}
+
+  \indexspace
+
+  \item parallelism, \hyperpage{345}
+  \item parametric polymorphism, \hyperpage{14}, \hyperpage{27}
+  \item parsing/lexer and parser composition, \hyperpage{303}
+  \item parsing/parser generators, \hyperpage{293}
+  \item partial application, \hyperpage{37}, \hyperpage{41}, 
+		\hyperpage{165}
+  \item pattern matching/and exhaustiveness, \hyperpage{88}
+  \item pattern matching/and let, \hyperpage{33}
+  \item pattern matching/benchmarking of, \hyperpage{420}
+  \item pattern matching/catch-all cases, \hyperpage{104}, 
+		\hyperpage{117}
+  \item pattern matching/fundamental algorithms in, \hyperpage{419}
+  \item pattern matching/in lists, \hyperpage{18}
+  \item pattern matching/optimization in lambda form code, 
+		\hyperpage{417}
+  \item pattern matching/vs. lexing rules, \hyperpage{301}
+  \item performance profiling, \hyperpage{432}
+  \item phys\_equal function, \hyperpage{257}
+  \item physical equality, \hyperpage{257}
+  \item pipes, \hyperpage{332}
+  \item pointers/allocating typed memory for, \hyperpage{356}
+  \item pointers/intergenerational pointers, \hyperpage{388}
+  \item pointers/operators controlling, \hyperpage{362}
+  \item pointers/support for in Ctypes, \hyperpage{354}
+  \item pointers/values for, \hyperpage{371}
+  \item pointers/word-aligned, \hyperpage{372}
+  \item polymorphic comparisons, \hyperpage{246}, \hyperpage{426}
+  \item polymorphic variant types/and catch-all cases, \hyperpage{117}
+  \item polymorphic variant types/automatic inference of, 
+		\hyperpage{113}
+  \item polymorphic variant types/basic syntax of, \hyperpage{113}
+  \item polymorphic variant types/drawbacks of, \hyperpage{119}
+  \item polymorphic variant types/in JSON data, \hyperpage{279}
+  \item polymorphic variant types/memory representation of, 
+		\hyperpage{377}
+  \item polymorphic variant types/type checking and, \hyperpage{284}, 
+		\hyperpage{401}
+  \item polymorphic variant types/upper/lower bounds of, 
+		\hyperpage{114}
+  \item polymorphic variant types/vs. ordinary variants, 
+		\hyperpage{115}, \hyperpage{119}
+  \item polymorphism/class parameters and, \hyperpage{218}
+  \item polymorphism/in first-class modules, \hyperpage{189}
+  \item polymorphism/in locally abstract types, \hyperpage{190}
+  \item polymorphism/in objects, \hyperpage{204}
+  \item polymorphism/polymorphic equality, \hyperpage{229}
+  \item polymorphism/row polymorphism, \hyperpage{205}, \hyperpage{215}
+  \item polymorphism/weak polymorphism, \hyperpage{162}
+  \item POSIX functions, \hyperpage{354}
+  \item PPX syntax extensions, \hyperpage{310}
+  \item prefix operators, \hyperpage{38}
+  \item pretty printers, \hyperpage{307}
+  \item primitive mutable data/array-like data, \hyperpage{141}
+  \item primitive mutable data/foreign functions, \hyperpage{143}
+  \item primitive mutable data/record/object fields and ref cells, 
+		\hyperpage{142}
+  \item principal type checking, \hyperpage{403}
+  \item printf function, \hyperpage{157}
+  \item private methods, \hyperpage{226}
+  \item product types, \hyperpage{106}
+  \item profiling, \hyperpage{432}
+  \item programming/concurrent programming with Async, \hyperpage{321}
+  \item programming/immutable vs. imperative, \hyperpage{24}, 
+		\hyperpage{137}
+  \item programming/language interfaces, \hyperpage{349}
+  \item programming/object-oriented programming (OOP), \hyperpage{202}, 
+		\hyperpage{217}
+  \item programming/simple standalone example, \hyperpage{29}
+  \item programs/multi-file programs, \hyperpage{71}
+  \item protected methods, \hyperpage{226}
+  \item punning, \hyperpage{43}
+  \item pure code, \hyperpage{24}, \hyperpage{137}
+
+  \indexspace
+
+  \item qsort binding, \hyperpage{365}
+  \item query-handlers/and first-class modules, \hyperpage{191}
+  \item query-handlers/dispatching to multiple, \hyperpage{194}
+  \item query-handlers/executing an HTTP client query, \hyperpage{334}
+  \item query-handlers/implementation of, \hyperpage{192}
+  \item query-handlers/loading/unloading of, \hyperpage{197}
+
+  \indexspace
+
+  \item Random module, \hyperpage{28}
+  \item Reader module, \hyperpage{327}
+  \item rec keyword, \hyperpage{37}
+  \item record field accessor functions, \hyperpage{97}
+  \item records/basic syntax for, \hyperpage{86}
+  \item records/construction of, \hyperpage{90}
+  \item records/field punning in, \hyperpage{90}
+  \item records/first-class fields in, \hyperpage{97}
+  \item records/functional updates to, \hyperpage{95}
+  \item records/label punning in, \hyperpage{90}
+  \item records/memory representation of, \hyperpage{374}
+  \item records/missing field warnings, \hyperpage{88}
+  \item records/mutable fields in, \hyperpage{96}
+  \item records/patterns and exhaustiveness in, \hyperpage{88}
+  \item records/record types, \hyperpage{22}, \hyperpage{26}
+  \item records/reusing field names, \hyperpage{91}
+  \item recursion/in json types, \hyperpage{278}
+  \item recursion/in lexers, \hyperpage{302}
+  \item recursion/open recursion, \hyperpage{207}, \hyperpage{225}
+  \item recursion/tail recursion, \hyperpage{61}
+  \item recursive data structures, \hyperpage{110}
+  \item recursive functions/definition of, \hyperpage{37}
+  \item recursive functions/list functions, \hyperpage{19}
+  \item ref cells, \hyperpage{142}
+  \item refactoring, \hyperpage{104}
+  \item regular expressions, \hyperpage{300}
+  \item remembered sets, \hyperpage{388}
+  \item remote keyword, \hyperpage{269}
+  \item representation types, \hyperpage{229}
+  \item Result.t option, \hyperpage{122}
+  \item return function, \hyperpage{323}
+  \item returning function, \hyperpage{360}
+  \item rev\_object\_fields, \hyperpage{298}
+  \item RFC3986, \hyperpage{333}
+  \item RFC4627, \hyperpage{277}, \hyperpage{334}
+  \item risky type, \hyperpage{403}
+  \item root values, \hyperpage{387}
+  \item row polymorphism, \hyperpage{205}, \hyperpage{215}, 
+		\hyperpage{401}
+  \item runtime exceptions vs. type errors, \hyperpage{14}
+  \item runtime memory representation/blocks and values, 
+		\hyperpage{373}
+  \item runtime memory representation/custom heap blocks, 
+		\hyperpage{379}
+  \item runtime memory representation/importance of, \hyperpage{370}
+  \item runtime memory representation/polymorphic variants, 
+		\hyperpage{377}
+  \item runtime memory representation/string values, \hyperpage{378}
+  \item runtime memory representation/tuples, records, and arrays, 
+		\hyperpage{374}
+  \item runtime memory representation/variants and lists, 
+		\hyperpage{376}
+
+  \indexspace
+
+  \item s-expressions/basic usage of, \hyperpage{306}
+  \item s-expressions/deserializing a type from, \hyperpage{314}
+  \item s-expressions/example of, \hyperpage{123}, \hyperpage{180}
+  \item s-expressions/format of, \hyperpage{310}
+  \item s-expressions/generating from OCaml types, \hyperpage{308}
+  \item s-expressions/in queries and responses, \hyperpage{192}
+  \item s-expressions/modifying default behavior of, \hyperpage{316}
+  \item s-expressions/preserving invariants in, \hyperpage{311}
+  \item s-expressions/specifying defaults in, \hyperpage{318}
+  \item s-expressions/uses for, \hyperpage{306}
+  \item scalar C types, \hyperpage{353}
+  \item Scheduler.go, \hyperpage{330}
+  \item scope, \hyperpage{31}
+  \item search engines, \hyperpage{333}
+  \item security issues/denial-of-service attacks, \hyperpage{252}
+  \item security issues/Obj module warning, \hyperpage{376}
+  \item segfaults, \hyperpage{348}
+  \item semantic actions, \hyperpage{297}
+  \item semicolons vs. commas, \hyperpage{17}
+  \item set types, \hyperpage{241}
+  \item sexp declaration, \hyperpage{127}, \hyperpage{180}, 
+		\hyperpage{192}
+  \item Sexplib package/sexp converter, \hyperpage{123}
+  \item Sexplib package/sexp\_list, \hyperpage{317}
+  \item Sexplib package/sexp\_opaque, \hyperpage{316}
+  \item Sexplib package/sexp\_option, \hyperpage{318}
+  \item Sexplib package/syntax extension in, \hyperpage{309}
+  \item Sexplib package/Type\_conv library and, \hyperpage{310}
+  \item shadowing, \hyperpage{32}
+  \item sharing constraint, \hyperpage{175}, \hyperpage{190}
+  \item short paths heuristic, \hyperpage{410}
+  \item side effects, \hyperpage{148}, \hyperpage{162}
+  \item signatures/abstract types, \hyperpage{72}
+  \item signatures/concrete types, \hyperpage{75}
+  \item source code/automatically indenting, \hyperpage{395}
+  \item sprintf function, \hyperpage{159}
+  \item stack backtraces, \hyperpage{132}
+  \item stack frames, \hyperpage{62}
+  \item start symbols, \hyperpage{296}
+  \item static checking, \hyperpage{278}, \hyperpage{393}
+  \item static dispatch, \hyperpage{230}
+  \item strict evaluation, \hyperpage{161}
+  \item string matching, \hyperpage{150}
+  \item String.concat, \hyperpage{58}
+  \item strings/concatenation of, \hyperpage{58}
+  \item strings/format strings, \hyperpage{157}
+  \item strings/memory representation of, \hyperpage{378}
+  \item strings/padding of, \hyperpage{58}
+  \item strings/vs. Char.t arrays, \hyperpage{141}
+  \item structs and unions/array definition, \hyperpage{362}
+  \item structs and unions/field addition, \hyperpage{358}
+  \item structs and unions/incomplete structure definitions, 
+		\hyperpage{359}
+  \item structs and unions/memory layout of, \hyperpage{368}
+  \item structs and unions/structure definition, \hyperpage{357}
+  \item structs and unions/time-printing command, \hyperpage{360}
+  \item structural equality, \hyperpage{257}
+  \item subcommands, grouping of, \hyperpage{269}
+  \item subtraction operators, \hyperpage{40}
+  \item subtyping/basics of, \hyperpage{207}
+  \item subtyping/depth subtyping, \hyperpage{208}
+  \item subtyping/in static type checking, \hyperpage{398}
+  \item subtyping/vs.  row polymorphism, \hyperpage{215}
+  \item subtyping/width subtyping, \hyperpage{208}
+  \item sum types, \hyperpage{106}
+  \item syntax errors, \hyperpage{395}
+  \item syntax extension with PPX, \hyperpage{310}
+  \item syntax extension/in Sexplib package, \hyperpage{309}
+  \item system threads, \hyperpage{321}
+
+  \indexspace
+
+  \item tab-autocompletion, \hyperpage{274}
+  \item tables, creating with List module, \hyperpage{56}
+  \item tail calls, \hyperpage{63}, \hyperpage{328}
+  \item tail recursion, \hyperpage{61}
+  \item TCP clients/servers, \hyperpage{329}
+  \item textwrap library, \hyperpage{333}
+  \item threads/benefits of, \hyperpage{345}
+  \item threads/kernel-level threads, \hyperpage{345}
+  \item threads/locking and, \hyperpage{348}
+  \item threads/preemptive vs. single-threaded programs, 
+		\hyperpage{321}
+  \item threads/thread-safety, \hyperpage{348}
+  \item thunks, \hyperpage{123}, \hyperpage{149}, \hyperpage{326}
+  \item timeouts, \hyperpage{342}
+  \item to\_init function, \hyperpage{282}
+  \item to\_string function, \hyperpage{282}
+  \item tokens, declaration of, \hyperpage{296}
+  \item top-level bindings, \hyperpage{31}
+  \item top-level printers, \hyperpage{308}
+  \item tuples, \hyperpage{15}, \hyperpage{286}, \hyperpage{374}
+  \item type annotations, \hyperpage{48}, \hyperpage{401}
+  \item type checking, \hyperpage{284}, \hyperpage{370}
+  \item type definition mismatches, \hyperpage{82}
+  \item type errors vs. exceptions, \hyperpage{14}
+  \item type inference/algorithm basis of, \hyperpage{400}
+  \item type inference/benefits of, \hyperpage{284}
+  \item type inference/drawbacks of, \hyperpage{399}
+  \item type inference/error detection with, \hyperpage{401}
+  \item type inference/generic types, \hyperpage{13}
+  \item type inference/in static type checking, \hyperpage{398}
+  \item type inference/principality checks, \hyperpage{403}
+  \item type inference/process of, \hyperpage{12}
+  \item type mismatches, \hyperpage{81}
+  \item type variables, \hyperpage{14}, \hyperpage{163}, 
+		\hyperpage{205}
+  \item Type\_conv library, \hyperpage{310}
+
+  \indexspace
+
+  \item Ulex lexer generator, \hyperpage{303}
+  \item unaligned memory access, \hyperpage{372}
+  \item unboxed integers, \hyperpage{374}
+  \item Unicode, parsing solutions for, \hyperpage{303}
+  \item Uniform Resource Identifiers (URIs), \hyperpage{333}
+  \item unions, \hyperpage{357}
+  \item unit tests, \hyperpage{278}
+  \item uri library, \hyperpage{333}
+  \item Uutf Unicode codec, \hyperpage{303}
+
+  \indexspace
+
+  \item value restriction, \hyperpage{164}
+  \item values/allocation requests and, \hyperpage{381}
+  \item values/boxing of, \hyperpage{371}
+  \item values/copying with Array.blit, \hyperpage{141}
+  \item values/filtering with List.filter, \hyperpage{59}
+  \item values/finalizer functions for, \hyperpage{390}
+  \item values/in JSON data, \hyperpage{277}, \hyperpage{283}, 
+		\hyperpage{297}
+  \item values/integer vs. pointer, \hyperpage{371}
+  \item values/mapping complex with views, \hyperpage{356}
+  \item values/stored by bytecode compiler, \hyperpage{421}
+  \item variables/immutability of, \hyperpage{33}
+  \item variables/pattern matching in, \hyperpage{33}
+  \item variables/scope of, \hyperpage{31}
+  \item variables/shadowing of, \hyperpage{32}
+  \item variant types/and recursive data structures, \hyperpage{110}
+  \item variant types/basic syntax of, \hyperpage{101}
+  \item variant types/catch-all cases and refactoring, \hyperpage{104}
+  \item variant types/combining multiple object types with, 
+		\hyperpage{23}
+  \item variant types/memory representation of, \hyperpage{376}
+  \item variant types/usefulness of, \hyperpage{101}
+  \item variant types/Yojson support for, \hyperpage{286}
+  \item virtual classes, \hyperpage{230}
+  \item virtual methods, \hyperpage{230}
+
+  \indexspace
+
+  \item weak polymorphism, \hyperpage{162}
+  \item while loops, \hyperpage{28}, \hyperpage{143}
+  \item width subtyping, \hyperpage{208}
+  \item word-aligned pointers, \hyperpage{372}
+  \item write barriers, \hyperpage{388}
+  \item Writer module, \hyperpage{327}
+
+  \indexspace
+
+  \item Xen, \hyperpage{398}
+
+  \indexspace
+
+  \item Yojson library/combinators in, \hyperpage{281}
+  \item Yojson library/extended JSON format support, \hyperpage{285}
+  \item Yojson library/installation of, \hyperpage{278}
+  \item Yojson library/parsing JSON with, \hyperpage{278}, 
+		\hyperpage{334}
+
+\end{theindex}

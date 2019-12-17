@@ -1,0 +1,410 @@
+\contentsline {section}{Prologue}{9}{section*.2}
+\contentsline {subsection}{Why OCaml?}{9}{section*.3}
+\contentsline {subsubsection}{A Brief History}{10}{section*.4}
+\contentsline {subsubsection}{The \texttt {Base} Standard Library}{11}{section*.5}
+\contentsline {subsubsection}{The OCaml Platform}{12}{section*.6}
+\contentsline {subsection}{About This Book}{12}{section*.7}
+\contentsline {subsubsection}{What to Expect}{13}{section*.8}
+\contentsline {subsubsection}{Installation Instructions}{14}{section*.9}
+\contentsline {subsubsection}{Code Examples}{14}{section*.10}
+\contentsline {subsection}{Contributors}{14}{section*.11}
+\contentsline {part}{Language Concepts}{16}{section*.12}
+\contentsline {section}{A Guided Tour}{16}{section*.13}
+\contentsline {subsection}{\texttt {Base}, \texttt {Core} and \texttt {Core\_kernel}}{16}{section*.14}
+\contentsline {subsection}{OCaml as a Calculator}{17}{section*.15}
+\contentsline {subsection}{Functions and Type Inference}{18}{section*.16}
+\contentsline {subsubsection}{Type Inference}{20}{section*.17}
+\contentsline {subsubsection}{Inferring Generic Types}{21}{section*.18}
+\contentsline {paragraph}{Type Errors Versus Exceptions}{22}{section*.19}
+\contentsline {subsection}{Tuples, Lists, Options, and Pattern Matching}{23}{section*.20}
+\contentsline {subsubsection}{Tuples}{23}{section*.21}
+\contentsline {subsubsection}{Lists}{24}{section*.22}
+\contentsline {paragraph}{The List module}{24}{section*.23}
+\contentsline {paragraph}{Constructing lists with ::}{25}{section*.24}
+\contentsline {subparagraph}{Semicolons Versus Commas}{25}{section*.25}
+\contentsline {paragraph}{List patterns using match}{26}{section*.26}
+\contentsline {paragraph}{Recursive list functions}{27}{section*.27}
+\contentsline {paragraph}{Nesting lets with let and in}{28}{section*.28}
+\contentsline {subsubsection}{Options}{29}{section*.29}
+\contentsline {subsection}{Records and Variants}{30}{section*.30}
+\contentsline {subsubsection}{\texttt {Base} and polymorphic comparison}{32}{section*.31}
+\contentsline {subsection}{Imperative Programming}{32}{section*.32}
+\contentsline {subsubsection}{Arrays}{33}{section*.33}
+\contentsline {subsubsection}{Mutable Record Fields}{33}{section*.34}
+\contentsline {subsubsection}{Refs}{34}{section*.35}
+\contentsline {subsubsection}{For and While Loops}{36}{section*.36}
+\contentsline {subsection}{A Complete Program}{37}{section*.37}
+\contentsline {subsubsection}{Compiling and Running}{38}{section*.38}
+\contentsline {subsection}{Where to Go from Here}{38}{section*.39}
+\contentsline {section}{Variables and Functions}{39}{section*.40}
+\contentsline {subsection}{Variables}{39}{section*.41}
+\contentsline {subsubsection}{Why Don't Variables Vary?}{41}{section*.42}
+\contentsline {subsubsection}{Pattern Matching and let}{41}{section*.43}
+\contentsline {subsection}{Functions}{42}{section*.44}
+\contentsline {subsubsection}{Anonymous Functions}{42}{section*.45}
+\contentsline {paragraph}{let and fun}{44}{section*.46}
+\contentsline {subsubsection}{Multiargument functions}{44}{section*.47}
+\contentsline {subsubsection}{Recursive Functions}{45}{section*.48}
+\contentsline {subsubsection}{Prefix and Infix Operators}{46}{section*.49}
+\contentsline {subsubsection}{Declaring Functions with \texttt {function}}{50}{section*.50}
+\contentsline {subsubsection}{Labeled Arguments}{51}{section*.51}
+\contentsline {paragraph}{Higher-order functions and labels}{52}{section*.52}
+\contentsline {subsubsection}{Optional Arguments}{53}{section*.53}
+\contentsline {paragraph}{Explicit passing of an optional argument}{54}{section*.54}
+\contentsline {paragraph}{Inference of labeled and optional arguments}{55}{section*.55}
+\contentsline {paragraph}{Optional arguments and partial application}{56}{section*.56}
+\contentsline {section}{Lists and Patterns}{59}{section*.57}
+\contentsline {subsection}{List Basics}{59}{section*.58}
+\contentsline {subsection}{Using Patterns to Extract Data from a List}{60}{section*.59}
+\contentsline {subsection}{Limitations (and Blessings) of Pattern Matching}{61}{section*.60}
+\contentsline {subsubsection}{Performance}{62}{section*.61}
+\contentsline {subsubsection}{Detecting Errors}{63}{section*.62}
+\contentsline {subsection}{Using the List Module Effectively}{64}{section*.63}
+\contentsline {subsubsection}{Performance of String.concat and \^{}}{66}{section*.64}
+\contentsline {subsubsection}{More Useful List Functions}{67}{section*.65}
+\contentsline {paragraph}{Combining list elements with List.reduce}{67}{section*.66}
+\contentsline {paragraph}{Filtering with List.filter and List.filter\_map}{67}{section*.67}
+\contentsline {paragraph}{Partitioning with List.partition\_tf}{68}{section*.68}
+\contentsline {paragraph}{Combining lists}{68}{section*.69}
+\contentsline {subsection}{Tail Recursion}{69}{section*.70}
+\contentsline {subsection}{Terser and Faster Patterns}{71}{section*.71}
+\contentsline {subparagraph}{Polymorphic Compare}{72}{section*.72}
+\contentsline {section}{Files, Modules, and Programs}{76}{section*.73}
+\contentsline {subsection}{Single-File Programs}{76}{section*.74}
+\contentsline {subsubsection}{Where Is \texttt {main}?}{77}{section*.75}
+\contentsline {subsubsection}{Bytecode Versus Native Code}{78}{section*.76}
+\contentsline {subsection}{Multifile Programs and Modules}{79}{section*.77}
+\contentsline {subsection}{Signatures and Abstract Types}{80}{section*.78}
+\contentsline {subsection}{Concrete Types in Signatures}{83}{section*.79}
+\contentsline {subsection}{Nested Modules}{84}{section*.80}
+\contentsline {subsection}{Opening Modules}{85}{section*.81}
+\contentsline {subsection}{Including Modules}{87}{section*.82}
+\contentsline {subsection}{Common Errors with Modules}{89}{section*.83}
+\contentsline {subsubsection}{Type Mismatches}{89}{section*.84}
+\contentsline {subsubsection}{Missing Definitions}{89}{section*.85}
+\contentsline {subsubsection}{Type Definition Mismatches}{90}{section*.86}
+\contentsline {subsubsection}{Cyclic Dependencies}{90}{section*.87}
+\contentsline {subsection}{Designing with Modules}{91}{section*.88}
+\contentsline {subsubsection}{Expose Concrete Types Rarely}{91}{section*.89}
+\contentsline {subsubsection}{Design for the Call Site}{92}{section*.90}
+\contentsline {subsubsection}{Create Uniform Interfaces}{93}{section*.91}
+\contentsline {subsubsection}{Interfaces before implementations}{93}{section*.92}
+\contentsline {section}{Records}{94}{section*.93}
+\contentsline {subsection}{Patterns and Exhaustiveness}{96}{section*.94}
+\contentsline {subsection}{Field Punning}{98}{section*.95}
+\contentsline {subsection}{Reusing Field Names}{99}{section*.96}
+\contentsline {subsection}{Functional Updates}{103}{section*.97}
+\contentsline {subsection}{Mutable Fields}{104}{section*.98}
+\contentsline {subsection}{First-Class Fields}{105}{section*.99}
+\contentsline {section}{Variants}{109}{section*.100}
+\contentsline {paragraph}{Variants, tuples and parens}{111}{section*.101}
+\contentsline {subsection}{Catch-All Cases and Refactoring}{112}{section*.102}
+\contentsline {subsection}{Combining Records and Variants}{114}{section*.103}
+\contentsline {subsubsection}{Embedded records}{117}{section*.104}
+\contentsline {subsection}{Variants and Recursive Data Structures}{118}{section*.105}
+\contentsline {subsection}{Polymorphic Variants}{121}{section*.106}
+\contentsline {subsubsection}{Example: Terminal Colors Redux}{123}{section*.107}
+\contentsline {paragraph}{Polymorphic Variants and Catch-all Cases}{125}{section*.108}
+\contentsline {subsubsection}{When to Use Polymorphic Variants}{127}{section*.109}
+\contentsline {section}{Error Handling}{129}{section*.110}
+\contentsline {subsection}{Error-Aware Return Types}{129}{section*.111}
+\contentsline {subsubsection}{Encoding Errors with Result}{130}{section*.112}
+\contentsline {subsubsection}{Error and Or\_error}{131}{section*.113}
+\contentsline {subsubsection}{\texttt {bind} and Other Error Handling Idioms}{132}{section*.114}
+\contentsline {paragraph}{Monads and \texttt {Let\_syntax}}{133}{section*.115}
+\contentsline {subsection}{Exceptions}{134}{section*.116}
+\contentsline {subsubsection}{Declaring Exceptions Using \texttt {{[}@@deriving\ sexp{]}}}{136}{section*.117}
+\contentsline {subsubsection}{Helper Functions for Throwing Exceptions}{136}{section*.118}
+\contentsline {subsubsection}{Exception Handlers}{137}{section*.119}
+\contentsline {subsubsection}{Cleaning Up in the Presence of Exceptions}{138}{section*.120}
+\contentsline {subsubsection}{Catching Specific Exceptions}{139}{section*.121}
+\contentsline {subsubsection}{Backtraces}{140}{section*.122}
+\contentsline {subsubsection}{From Exceptions to Error-Aware Types and Back Again}{143}{section*.123}
+\contentsline {subsection}{Choosing an Error-Handling Strategy}{143}{section*.124}
+\contentsline {section}{Imperative Programming}{145}{section*.125}
+\contentsline {subsection}{Example: Imperative Dictionaries}{145}{section*.126}
+\contentsline {subsection}{Primitive Mutable Data}{149}{section*.127}
+\contentsline {subsubsection}{Array-Like Data}{149}{section*.128}
+\contentsline {paragraph}{Ordinary arrays}{149}{section*.129}
+\contentsline {paragraph}{Strings}{149}{section*.130}
+\contentsline {paragraph}{Bigarrays}{150}{section*.131}
+\contentsline {subsubsection}{Mutable Record and Object Fields and Ref Cells}{150}{section*.132}
+\contentsline {paragraph}{Ref cells}{150}{section*.133}
+\contentsline {subsubsection}{Foreign Functions}{151}{section*.134}
+\contentsline {subsection}{for and while Loops}{151}{section*.135}
+\contentsline {subsection}{Example: Doubly Linked Lists}{152}{section*.136}
+\contentsline {subsubsection}{Cyclic Data Structures}{153}{section*.137}
+\contentsline {subsubsection}{Modifying the List}{154}{section*.138}
+\contentsline {subsubsection}{Iteration Functions}{155}{section*.139}
+\contentsline {subsection}{Laziness and Other Benign Effects}{156}{section*.140}
+\contentsline {subsubsection}{Memoization and Dynamic Programming}{157}{section*.141}
+\contentsline {paragraph}{Limitations of let rec}{162}{section*.142}
+\contentsline {subsection}{Input and Output}{163}{section*.143}
+\contentsline {subsubsection}{Terminal I/O}{164}{section*.144}
+\contentsline {subsubsection}{Formatted Output with printf}{165}{section*.145}
+\contentsline {subparagraph}{Understanding Format Strings}{165}{section*.146}
+\contentsline {subsubsection}{File I/O}{167}{section*.147}
+\contentsline {subsection}{Order of Evaluation}{169}{section*.148}
+\contentsline {subsection}{Side Effects and Weak Polymorphism}{170}{section*.149}
+\contentsline {subsubsection}{The Value Restriction}{171}{section*.150}
+\contentsline {subsubsection}{Partial Application and the Value Restriction}{173}{section*.151}
+\contentsline {subsubsection}{Relaxing the Value Restriction}{173}{section*.152}
+\contentsline {subsection}{Summary}{176}{section*.153}
+\contentsline {section}{Functors}{177}{section*.154}
+\contentsline {subsection}{A Trivial Example}{177}{section*.155}
+\contentsline {subsection}{A Bigger Example: Computing with Intervals}{179}{section*.156}
+\contentsline {subsubsection}{Making the Functor Abstract}{182}{section*.157}
+\contentsline {subsubsection}{Sharing Constraints}{183}{section*.158}
+\contentsline {subsubsection}{Destructive Substitution}{186}{section*.159}
+\contentsline {subsubsection}{Using Multiple Interfaces}{188}{section*.160}
+\contentsline {subsection}{Extending Modules}{191}{section*.161}
+\contentsline {section}{First-Class Modules}{195}{section*.162}
+\contentsline {subsection}{Working with First-Class Modules}{195}{section*.163}
+\contentsline {subsubsection}{More on Locally Abstract Types}{198}{section*.164}
+\contentsline {subsection}{Example: A Query-Handling Framework}{199}{section*.165}
+\contentsline {subsubsection}{Implementing a Query Handler}{200}{section*.166}
+\contentsline {subsubsection}{Dispatching to Multiple Query Handlers}{202}{section*.167}
+\contentsline {subsubsection}{Loading and Unloading Query Handlers}{205}{section*.168}
+\contentsline {subsection}{Living Without First-Class Modules}{208}{section*.169}
+\contentsline {section}{Objects}{210}{section*.170}
+\contentsline {subparagraph}{What Is Object-Oriented Programming?}{210}{section*.171}
+\contentsline {subsection}{OCaml Objects}{210}{section*.172}
+\contentsline {subsection}{Object Polymorphism}{212}{section*.173}
+\contentsline {subparagraph}{Elisions Are Polymorphic}{213}{section*.174}
+\contentsline {subsection}{Immutable Objects}{214}{section*.175}
+\contentsline {subsection}{When to Use Objects}{215}{section*.176}
+\contentsline {subsection}{Subtyping}{215}{section*.177}
+\contentsline {subsubsection}{Width Subtyping}{216}{section*.178}
+\contentsline {subsubsection}{Depth Subtyping}{216}{section*.179}
+\contentsline {paragraph}{Polymorphic Variant Subtyping}{217}{section*.180}
+\contentsline {subsubsection}{Variance}{217}{section*.181}
+\contentsline {subparagraph}{Variance Annotations}{218}{section*.182}
+\contentsline {subsubsection}{Narrowing}{221}{section*.183}
+\contentsline {subsubsection}{Subtyping Versus Row Polymorphism}{222}{section*.184}
+\contentsline {paragraph}{Production Note}{224}{section*.185}
+\contentsline {section}{Classes}{225}{section*.186}
+\contentsline {subsection}{OCaml Classes}{225}{section*.187}
+\contentsline {subsection}{Class Parameters and Polymorphism}{226}{section*.188}
+\contentsline {subsection}{Object Types as Interfaces}{227}{section*.189}
+\contentsline {subsubsection}{Functional Iterators}{229}{section*.190}
+\contentsline {subsection}{Inheritance}{231}{section*.191}
+\contentsline {subsection}{Class Types}{231}{section*.192}
+\contentsline {subsection}{Open Recursion}{232}{section*.193}
+\contentsline {subsection}{Private Methods}{234}{section*.194}
+\contentsline {subsection}{Binary Methods}{236}{section*.195}
+\contentsline {subsection}{Virtual Classes and Methods}{238}{section*.196}
+\contentsline {subsubsection}{Create Some Simple Shapes}{239}{section*.197}
+\contentsline {subsection}{Initializers}{241}{section*.198}
+\contentsline {subsection}{Multiple Inheritance}{242}{section*.199}
+\contentsline {subsubsection}{How Names Are Resolved}{242}{section*.200}
+\contentsline {subsubsection}{Mixins}{242}{section*.201}
+\contentsline {subsubsection}{Displaying the Animated Shapes}{245}{section*.202}
+\contentsline {part}{Tools and Techniques}{247}{section*.203}
+\contentsline {section}{Maps and Hash Tables}{247}{section*.204}
+\contentsline {subsection}{Maps}{247}{section*.205}
+\contentsline {subsubsection}{Sets}{249}{section*.206}
+\contentsline {subsubsection}{Modules and Comparators}{249}{section*.207}
+\contentsline {subsubsection}{Why do we need comparator witnesses?}{252}{section*.208}
+\contentsline {subsubsection}{The Polymorphic Comparator}{254}{section*.209}
+\contentsline {subparagraph}{The Perils of Polymorphic Compare}{255}{section*.210}
+\contentsline {subsubsection}{Satisfying \texttt {Comparator.S} with \texttt {{[}@@deriving{]}}}{256}{section*.211}
+\contentsline {subparagraph}{=, ==, and phys\_equal}{257}{section*.212}
+\contentsline {subsubsection}{Applying \texttt {{[}@@deriving{]}} to maps and sets}{258}{section*.213}
+\contentsline {subsubsection}{Trees}{259}{section*.214}
+\contentsline {subsection}{Hash Tables}{260}{section*.215}
+\contentsline {subsubsection}{Time Complexity of Hash Tables}{260}{section*.216}
+\contentsline {subsubsection}{Collisions with the Polymorphic Hash Function}{262}{section*.217}
+\contentsline {subsection}{Choosing Between Maps and Hash Tables}{262}{section*.218}
+\contentsline {section}{Command-Line Parsing}{266}{section*.219}
+\contentsline {subsection}{Basic Command-Line Parsing}{266}{section*.220}
+\contentsline {subsubsection}{Defining an anonymous argument}{267}{section*.221}
+\contentsline {subsubsection}{Defining basic commands}{267}{section*.222}
+\contentsline {subsubsection}{Running commands}{268}{section*.223}
+\contentsline {subsubsection}{Multi-argument commands}{270}{section*.224}
+\contentsline {subsection}{Argument Types}{271}{section*.225}
+\contentsline {subsubsection}{Defining Custom Argument Types}{272}{section*.226}
+\contentsline {subsubsection}{Optional and Default Arguments}{273}{section*.227}
+\contentsline {subsubsection}{Sequences of Arguments}{275}{section*.228}
+\contentsline {subsection}{Adding Labeled Flags}{275}{section*.229}
+\contentsline {subsection}{Grouping Subcommands Together}{277}{section*.230}
+\contentsline {subsection}{Prompting for Interactive Input}{280}{section*.231}
+\contentsline {subsection}{Command-Line Autocompletion with bash}{281}{section*.232}
+\contentsline {subsubsection}{Generating Completion Fragments from Command}{282}{section*.233}
+\contentsline {subsubsection}{Installing the Completion Fragment}{283}{section*.234}
+\contentsline {paragraph}{Installing a Generic Completion Handler}{283}{section*.235}
+\contentsline {subsection}{Alternative Command-Line Parsers}{283}{section*.236}
+\contentsline {section}{Handling JSON Data}{285}{section*.237}
+\contentsline {subsection}{JSON Basics}{285}{section*.238}
+\contentsline {subsubsection}{Installing the Yojson Library}{286}{section*.239}
+\contentsline {subsection}{Parsing JSON with Yojson}{286}{section*.240}
+\contentsline {subsection}{Selecting Values from JSON Structures}{288}{section*.241}
+\contentsline {subparagraph}{Functional Combinators}{289}{section*.242}
+\contentsline {subsection}{Constructing JSON Values}{291}{section*.243}
+\contentsline {subparagraph}{Polymorphic Variants and Easier Type Checking}{292}{section*.244}
+\contentsline {subsection}{Using Nonstandard JSON Extensions}{293}{section*.245}
+\contentsline {subsection}{Automatically Mapping JSON to OCaml Types}{294}{section*.246}
+\contentsline {subsubsection}{Installing the ATDgen Library and Tool}{295}{section*.247}
+\contentsline {subsubsection}{ATD Basics}{295}{section*.248}
+\contentsline {subsubsection}{ATD Annotations}{296}{section*.249}
+\contentsline {subsubsection}{Compiling ATD Specifications to OCaml}{296}{section*.250}
+\contentsline {subsubsection}{Example: Querying GitHub Organization Information}{298}{section*.251}
+\contentsline {section}{Parsing with OCamllex and Menhir}{301}{section*.252}
+\contentsline {subsection}{Menhir Versus ocamlyacc}{301}{section*.253}
+\contentsline {subsection}{Lexing and Parsing}{302}{section*.254}
+\contentsline {subsection}{Defining a Parser}{304}{section*.255}
+\contentsline {subsubsection}{Describing the Grammar}{304}{section*.256}
+\contentsline {subsubsection}{Parsing Sequences}{306}{section*.257}
+\contentsline {subsection}{Defining a Lexer}{307}{section*.258}
+\contentsline {subsubsection}{OCaml Prelude}{307}{section*.259}
+\contentsline {subsubsection}{Regular Expressions}{308}{section*.260}
+\contentsline {subsubsection}{Lexing Rules}{309}{section*.261}
+\contentsline {subsubsection}{Recursive Rules}{310}{section*.262}
+\contentsline {paragraph}{Handling Unicode}{311}{section*.263}
+\contentsline {subsection}{Bringing It All Together}{311}{section*.264}
+\contentsline {section}{Data Serialization with S-Expressions}{314}{section*.265}
+\contentsline {subsection}{Basic Usage}{314}{section*.266}
+\contentsline {subsubsection}{More on Top-Level Printing}{316}{section*.267}
+\contentsline {subsubsection}{Generating S-Expressions from OCaml Types}{316}{section*.268}
+\contentsline {paragraph}{Syntax Extensions and PPX}{318}{section*.269}
+\contentsline {subsection}{The Sexp Format}{318}{section*.270}
+\contentsline {subsection}{Preserving Invariants}{319}{section*.271}
+\contentsline {subsection}{Getting Good Error Messages}{322}{section*.272}
+\contentsline {subsection}{Sexp-Conversion Directives}{324}{section*.273}
+\contentsline {subsubsection}{sexp\_opaque}{324}{section*.274}
+\contentsline {subsubsection}{sexp\_list}{325}{section*.275}
+\contentsline {subsubsection}{sexp\_option}{326}{section*.276}
+\contentsline {subsubsection}{Specifying Defaults}{326}{section*.277}
+\contentsline {section}{Concurrent Programming with Async}{329}{section*.278}
+\contentsline {subsection}{Async Basics}{329}{section*.279}
+\contentsline {subsubsection}{Using \texttt {Let\_syntax} with Async}{332}{section*.280}
+\contentsline {subsubsection}{Ivars and Upon}{333}{section*.281}
+\contentsline {paragraph}{Understanding \texttt {bind} in terms of ivars and \texttt {upon}}{335}{section*.282}
+\contentsline {subsection}{Example: An Echo Server}{335}{section*.283}
+\contentsline {subsubsection}{Tail-calls and chains of deferreds}{336}{section*.284}
+\contentsline {subparagraph}{Functions that Never Return}{338}{section*.285}
+\contentsline {subsubsection}{Improving the Echo Server}{339}{section*.286}
+\contentsline {subsection}{Example: Searching Definitions with DuckDuckGo}{341}{section*.287}
+\contentsline {subsubsection}{URI Handling}{341}{section*.288}
+\contentsline {subsubsection}{Parsing JSON Strings}{342}{section*.289}
+\contentsline {subsubsection}{Executing an HTTP Client Query}{342}{section*.290}
+\contentsline {subsection}{Exception Handling}{345}{section*.291}
+\contentsline {subparagraph}{Monitors}{346}{section*.292}
+\contentsline {subsubsection}{Example: Handling Exceptions with DuckDuckGo}{348}{section*.293}
+\contentsline {subsection}{Timeouts, Cancellation, and Choices}{350}{section*.294}
+\contentsline {subsection}{Working with System Threads}{353}{section*.295}
+\contentsline {subsubsection}{Thread-Safety and Locking}{356}{section*.296}
+\contentsline {part}{The Compiler and Runtime System}{357}{section*.297}
+\contentsline {section}{Foreign Function Interface}{357}{section*.298}
+\contentsline {subsection}{Installing the Ctypes Library}{357}{section*.299}
+\contentsline {subsection}{Example: A Terminal Interface}{358}{section*.300}
+\contentsline {subsection}{Basic Scalar C Types}{361}{section*.301}
+\contentsline {subsection}{Pointers and Arrays}{362}{section*.302}
+\contentsline {subsubsection}{Allocating Typed Memory for Pointers}{364}{section*.303}
+\contentsline {subsubsection}{Using Views to Map Complex Values}{364}{section*.304}
+\contentsline {paragraph}{OCaml Strings Versus C Character Buffers}{365}{section*.305}
+\contentsline {subsection}{Structs and Unions}{365}{section*.306}
+\contentsline {subsubsection}{Defining a Structure}{366}{section*.307}
+\contentsline {subsubsection}{Adding Fields to Structures}{366}{section*.308}
+\contentsline {subsubsection}{Incomplete Structure Definitions}{367}{section*.309}
+\contentsline {paragraph}{Recap: A time-printing command}{368}{section*.310}
+\contentsline {subparagraph}{Why Do We Need to Use returning?}{369}{section*.311}
+\contentsline {subsubsection}{Defining Arrays}{370}{section*.312}
+\contentsline {subparagraph}{Pointer Operators for Dereferencing and Arithmetic}{370}{section*.313}
+\contentsline {subsection}{Passing Functions to C}{372}{section*.314}
+\contentsline {subsubsection}{Example: A Command-Line Quicksort}{373}{section*.315}
+\contentsline {subparagraph}{Lifetime of Allocated Ctypes}{374}{section*.316}
+\contentsline {subsection}{Learning More About C Bindings}{375}{section*.317}
+\contentsline {subsubsection}{Struct Memory Layout}{376}{section*.318}
+\contentsline {section}{Memory Representation of Values}{378}{section*.319}
+\contentsline {subsection}{Why Do OCaml Types Disappear at Runtime?}{378}{section*.320}
+\contentsline {subsection}{OCaml Blocks and Values}{379}{section*.321}
+\contentsline {subsubsection}{Distinguishing Integers and Pointers at Runtime}{379}{section*.322}
+\contentsline {paragraph}{Some History About OCaml's Word-Aligned Pointers}{380}{section*.323}
+\contentsline {subsection}{Blocks and Values}{380}{section*.324}
+\contentsline {subsubsection}{Integers, Characters, and Other Basic Types}{382}{section*.325}
+\contentsline {subsection}{Tuples, Records, and Arrays}{382}{section*.326}
+\contentsline {subsubsection}{Floating-Point Numbers and Arrays}{383}{section*.327}
+\contentsline {subsection}{Variants and Lists}{384}{section*.328}
+\contentsline {subsubsection}{Obj Module Considered Harmful}{384}{section*.329}
+\contentsline {subsection}{Polymorphic Variants}{385}{section*.330}
+\contentsline {subsection}{String Values}{386}{section*.331}
+\contentsline {subsection}{Custom Heap Blocks}{387}{section*.332}
+\contentsline {subsubsection}{Managing External Memory with Bigarray}{387}{section*.333}
+\contentsline {section}{Understanding the Garbage Collector}{389}{section*.334}
+\contentsline {subsection}{Mark and Sweep Garbage Collection}{389}{section*.335}
+\contentsline {subsection}{Generational Garbage Collection}{389}{section*.336}
+\contentsline {subparagraph}{The Gc Module and OCAMLRUNPARAM}{390}{section*.337}
+\contentsline {subsection}{The Fast Minor Heap}{390}{section*.338}
+\contentsline {subsubsection}{Allocating on the Minor Heap}{390}{section*.339}
+\contentsline {paragraph}{Setting the Size of the Minor Heap}{391}{section*.340}
+\contentsline {subsection}{The Long-Lived Major Heap}{391}{section*.341}
+\contentsline {subsubsection}{Allocating on the Major Heap}{392}{section*.342}
+\contentsline {paragraph}{Controlling Major Heap Growth}{392}{section*.343}
+\contentsline {subsubsection}{Memory Allocation Strategies}{393}{section*.344}
+\contentsline {paragraph}{Next-fit allocation}{393}{section*.345}
+\contentsline {paragraph}{First-fit allocation}{393}{section*.346}
+\contentsline {subparagraph}{Controlling the Heap Allocation Policy}{394}{section*.347}
+\contentsline {subsubsection}{Marking and Scanning the Heap}{394}{section*.348}
+\contentsline {paragraph}{Controlling Major Heap Collections}{395}{section*.349}
+\contentsline {subsubsection}{Heap Compaction}{395}{section*.350}
+\contentsline {paragraph}{Controlling Frequency of Compactions}{396}{section*.351}
+\contentsline {subsubsection}{Intergenerational Pointers}{396}{section*.352}
+\contentsline {paragraph}{The mutable write barrier}{396}{section*.353}
+\contentsline {subsection}{Attaching Finalizer Functions to Values}{398}{section*.354}
+\contentsline {subsubsection}{What Values Can Be Finalized?}{398}{section*.355}
+\contentsline {section}{The Compiler Frontend: Parsing and {Type Checking}}{401}{section*.356}
+\contentsline {subsection}{An Overview of the Toolchain}{401}{section*.357}
+\contentsline {subparagraph}{Obtaining the Compiler Source Code}{402}{section*.358}
+\contentsline {subsection}{Parsing Source Code}{402}{section*.359}
+\contentsline {subsubsection}{Syntax Errors}{403}{section*.360}
+\contentsline {subsubsection}{Automatically Indenting Source Code}{403}{section*.361}
+\contentsline {subsubsection}{Generating Documentation from Interfaces}{405}{section*.362}
+\contentsline {paragraph}{Using Custom ocamldoc Generators}{406}{section*.363}
+\contentsline {subsection}{Static Type Checking}{406}{section*.364}
+\contentsline {subsubsection}{Displaying Inferred Types from the Compiler}{407}{section*.365}
+\contentsline {paragraph}{Which Comes First: The ml or the mli?}{408}{section*.366}
+\contentsline {subsubsection}{Type Inference}{408}{section*.367}
+\contentsline {paragraph}{Adding type annotations to find errors}{409}{section*.368}
+\contentsline {paragraph}{Enforcing principal typing}{411}{section*.369}
+\contentsline {subsubsection}{Modules and Separate Compilation}{413}{section*.370}
+\contentsline {paragraph}{The mapping between files and modules}{413}{section*.371}
+\contentsline {paragraph}{Defining a module search path}{414}{section*.372}
+\contentsline {subparagraph}{Inspecting Compilation Units with ocamlobjinfo}{414}{section*.373}
+\contentsline {subsubsection}{Packing Modules Together}{415}{section*.374}
+\contentsline {paragraph}{Packing and Search Paths}{417}{section*.375}
+\contentsline {subsubsection}{Shorter Module Paths in Type Errors}{417}{section*.376}
+\contentsline {subsection}{The Typed Syntax Tree}{418}{section*.377}
+\contentsline {subsubsection}{Using ocp-index for Autocompletion}{418}{section*.378}
+\contentsline {subsubsection}{Examining the Typed Syntax Tree Directly}{419}{section*.379}
+\contentsline {section}{Preprocessing with ppx}{422}{section*.380}
+\contentsline {subsection}{Extension Attributes}{422}{section*.381}
+\contentsline {paragraph}{Commonly used extension attributes}{423}{section*.382}
+\contentsline {subsubsection}{ppx in the compiler}{424}{section*.383}
+\contentsline {subsection}{Building your first ppx extension}{424}{section*.384}
+\contentsline {subsubsection}{The AST Mapper and hello world}{424}{section*.385}
+\contentsline {subsubsection}{ppxlib}{424}{section*.386}
+\contentsline {section}{The Compiler Backend: Bytecode and Native code}{425}{section*.387}
+\contentsline {subsection}{The Untyped Lambda Form}{425}{section*.388}
+\contentsline {subsubsection}{Pattern Matching Optimization}{425}{section*.389}
+\contentsline {paragraph}{Learning More About Pattern Matching Compilation}{427}{section*.390}
+\contentsline {subsubsection}{Benchmarking Pattern Matching}{428}{section*.391}
+\contentsline {subsection}{Generating Portable Bytecode}{429}{section*.392}
+\contentsline {subsubsection}{Where Did the Bytecode Instruction Set Come From?}{430}{section*.393}
+\contentsline {subsubsection}{Compiling and Linking Bytecode}{431}{section*.394}
+\contentsline {subsubsection}{Executing Bytecode}{431}{section*.395}
+\contentsline {subsubsection}{Embedding OCaml Bytecode in C}{432}{section*.396}
+\contentsline {subsection}{Compiling Fast Native Code}{433}{section*.397}
+\contentsline {subsubsection}{Inspecting Assembly Output}{434}{section*.398}
+\contentsline {paragraph}{The impact of polymorphic comparison}{434}{section*.399}
+\contentsline {paragraph}{Benchmarking polymorphic comparison}{436}{section*.400}
+\contentsline {subsubsection}{Debugging Native Code Binaries}{437}{section*.401}
+\contentsline {paragraph}{Understanding name mangling}{437}{section*.402}
+\contentsline {paragraph}{Interactive breakpoints with the GNU debugger}{438}{section*.403}
+\contentsline {subparagraph}{Beware gdb on Mac OS X}{438}{section*.404}
+\contentsline {subsubsection}{Profiling Native Code}{440}{section*.405}
+\contentsline {paragraph}{Gprof}{440}{section*.406}
+\contentsline {paragraph}{Perf}{441}{section*.407}
+\contentsline {subparagraph}{Using the Frame Pointer to Get More Accurate Traces}{441}{section*.408}
+\contentsline {subsubsection}{Embedding Native Code in C}{442}{section*.409}
+\contentsline {paragraph}{Activating the Debug Runtime}{443}{section*.410}
+\contentsline {subsection}{Summarizing the File Extensions}{443}{section*.411}
